@@ -29,7 +29,7 @@ class Background extends Component {
           autoPlay: true,
           background: {
             color: {
-              value: "#172128",
+              value: "#3c5769",
             },
             image: "",
             position: "",
@@ -661,7 +661,7 @@ class Background extends Component {
                 frequency: 1,
                 opacity: 0.06,
                 color: {
-                  value: "#de826f",
+                  value: "#E7DCD5",
                 },
               },
               particles: {
