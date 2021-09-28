@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './css/main.css';
 import Background from './components/Background/Background';
 import Routes from './config/routes';
 

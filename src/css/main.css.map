@@ -1,0 +1,16 @@
+{
+    "version": 3,
+    "mappings": "AGAA,AAAA,SAAS,CAAA,EACP,OAAO,EAAE,MAAM,EACf,MAAM,EAAE,KAAK,GACd;;AGHD,AAAA,UAAU,CAAA,EACR,OAAO,EAAC,IAAI,GACb",
+    "sources": [
+        "../scss/main.scss",
+        "../_variables/_colors.scss",
+        "../_variables/_fonts.scss",
+        "../components/Home/NavBar/_nav.scss",
+        "../components/Home/About/_about.scss",
+        "../components/Home/Contact/_contact.scss",
+        "../components/Home/TechStacks/_stacks.scss",
+        "../components/Home/Footer/_footer.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
