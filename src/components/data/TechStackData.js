@@ -19,7 +19,7 @@ import {
   insomnia
 } from "../../tech-logos";
 
-export const TeckStackData = [
+export const TechStackData = [
   {
     key: 0,
     src: html5,
