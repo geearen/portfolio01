@@ -1,0 +1,34 @@
+.home {
+  display: flex;
+  flex-direction: column;
+
+  hr {
+    margin: 20px auto;
+    width: 95%;
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(
+      to right,
+      $background-dark,
+      $font-color,
+      $background-dark
+    );
+  }
+
+  .tech-stack {
+    text-align: center;
+    font-family: $handwriting-font;
+    background-color: transparentize($font-color, 0.8);
+    margin: 2rem 3rem;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 1px $hookers-green;
+    .tech-stack-section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      width: 100%;
+    }
+  }
+}

@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 function Nav(){
   return (
     <ul
-      className="nav justify-content-center"
+      className="navbar fixed-top justify-content-center"
       style={{ background: "#D5E0E7" }}
     >
       <li className="nav-item">

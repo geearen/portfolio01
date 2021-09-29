@@ -1,3 +1,8 @@
-.container{
-  padding:1rem;
+.tech-container{
+  .tech-stack-img{
+    box-sizing: content-box;
+    padding: 2rem 3rem;
+    width: auto;
+    height: 80px;
+  }
 }

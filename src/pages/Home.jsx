@@ -8,14 +8,33 @@ import Contact from '../components/Home/Contact/Contact';
 
 function Home(){
   return(
-    <div>
+    <>
       <Nav/>
-      <About/>
-      <Projects/>
-      <Stacks/>
-      <Contact/>
+        <div className="home">
+          <div className="about-me">
+            <About/>
+          </div>
+
+          <hr />
+          <div className="projects">
+            <Projects/>
+          </div>
+
+          <hr />
+          <div className="tech-stack">
+            <h1>Tech Stack</h1>
+            <section className="tech-stack-section">
+              <Stacks/>
+            </section>
+          </div>
+
+          <hr />
+          <div className="contact-info">
+            <Contact/>
+          </div>
+        </div>
       <Footer/>
-    </div>
+    </>
   )
 }
 

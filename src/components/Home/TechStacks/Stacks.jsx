@@ -6,9 +6,9 @@ export default function Stacks() {
     <>
     {TechStackData.map((item,index) =>{
       return(
-        <div key={index} className="container" >
-          <img src={item.src} alt={item.alt} />
-          <span>{item.span}</span>
+        <div key={index} className="tech-container">
+          <img className="tech-stack-img" src={item.src} alt={item.alt} />
+          {/* <span>{item.span}</span> */}
         </div>
       )
     })} 
