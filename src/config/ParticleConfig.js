@@ -2,7 +2,7 @@ const particlesConfig = {
   autoPlay: true,
   background: {
     color: {
-      value: "#3c5769",
+      value: "#2B3D4A",
     },
     image: "",
     position: "",
@@ -44,8 +44,8 @@ const particlesConfig = {
         enable: true,
         mode: "grab",
         parallax: {
-          enable: false,
-          force: 10,
+          enable: true,
+          force: 100,
           smooth: 10,
         },
       },
@@ -82,7 +82,7 @@ const particlesConfig = {
           consent: false,
           opacity: 1,
           color: {
-            value: "#de826f",
+            value: "#f77f00",
           },
         },
       },
@@ -306,7 +306,7 @@ const particlesConfig = {
       },
     },
     color: {
-      value: "#ffffff",
+      value: "#EFF3F6",
       animation: {
         h: {
           count: 0,
