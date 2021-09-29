@@ -14,6 +14,8 @@
 
 .home .tech-stack .tech-stack-section { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -ms-flex-wrap: wrap; flex-wrap: wrap; width: 100%; }
 
+.home .projects { text-align: center; margin: 2rem 3rem; padding: 1rem; }
+
 .about .container { margin: 2rem 5rem; }
 
 .about .about-portrait { background-color: #EFF3F6; padding: 2rem; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
@@ -24,11 +26,21 @@
 
 .about .about-text h1 { font-family: "Shadows Into Light Two", cursive; letter-spacing: 2px; }
 
+.contact-section { padding: 1rem; margin: 2rem; }
+
+.contact-section .contact-content { padding: 1rem; margin: 0.5rem; border-radius: 5px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-transition: 0.6s linear; transition: 0.6s linear; }
+
+.contact-section a { padding: 0.8rem; }
+
+.contact-section .contact-content:hover { outline-width: 10px; -webkit-box-shadow: 1px 1px 2px 10px #5C9499; box-shadow: 1px 1px 2px 10px #5C9499; }
+
 .tech-container .tech-stack-img { -webkit-box-sizing: content-box; box-sizing: content-box; padding: 2rem 3rem; width: auto; height: 80px; }
+
+.container .project-container { background-color: rgba(239, 243, 246, 0.5); padding: 2rem; border-radius: 5px; }
 
 * { -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 body { color: #EFF3F6; font-family: "Monsterrat", sans-serif; letter-spacing: 1px; }
 
-h1, h2, h3, h4, h5, h6 { font-family: "Shadows Into Light Two", cursive; color: #EFF3F6; }
+h1, h2, h3, h4, h5, h6 { font-family: "Shadows Into Light Two", cursive; color: #EFF3F6; letter-spacing: 4px; }
 /*# sourceMappingURL=main.css.map */

@@ -5,6 +5,7 @@
 @import "../components/Home/About/about";
 @import "../components/Home/Contact/contact";
 @import "../components/Home/TechStacks/stacks";
+@import "../components/Home/Projects/projects";
 @import "../components/Home/Footer/footer";
 *{
   box-sizing: border-box;
@@ -17,4 +18,5 @@ body{
 h1,h2,h3,h4,h5,h6{
   font-family: $handwriting-font;
   color: $font-color;
+  letter-spacing: 4px;
 }

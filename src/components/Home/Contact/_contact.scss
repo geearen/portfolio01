@@ -1,0 +1,21 @@
+.contact-section{
+  padding:1rem;
+  margin: 2rem;
+  .contact-content{
+    padding: 1rem;
+    margin:0.5rem;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.6s linear;
+  }
+  a{
+    padding:0.8rem;
+  }
+  .contact-content:hover{
+    outline-width: 10px;
+    box-shadow: 1px 1px 2px 10px $light-deep-space;
+  }
+}
