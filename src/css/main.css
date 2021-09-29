@@ -1,22 +1,34 @@
 @import url("https://fonts.googleapis.com/css2?family=Marcellus+SC&family=Montserrat:wght@100;200;300;400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap");
-.nav-item { padding: 0.8rem; margin: .2rem; }
+.navbar-container { background-color: rgba(101, 119, 164, 0.5); }
+
+.uk-navbar-nav li > a { font-family: "Shadows Into Light Two", cursive; letter-spacing: 3px; padding: 0.8rem; margin: .2rem; font-size: 1.5rem; color: #EFF3F6; text-shadow: 2px 2px 0px #263743; }
+
+.uk-navbar-nav li > a:hover { color: #6577A4; text-shadow: 0px 1px 0px #EFF3F6; }
 
 .home { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
 
-.home hr { margin: 20px auto; width: 95%; border: 0; height: 2px; background-image: -webkit-gradient(linear, left top, right top, from(#263743), color-stop(#EFF3F6), to(#263743)); background-image: linear-gradient(to right, #263743, #EFF3F6, #263743); }
+.home hr { margin: 20px auto; width: 95%; border: 0; height: 1px; background-image: -webkit-gradient(linear, left top, right top, from(#263743), color-stop(#EFF3F6), to(#263743)); background-image: linear-gradient(to right, #263743, #EFF3F6, #263743); }
 
 .home .tech-stack { text-align: center; font-family: "Shadows Into Light Two", cursive; background-color: rgba(239, 243, 246, 0.2); margin: 2rem 3rem; padding: 1rem; border-radius: 5px; -webkit-box-shadow: 2px 2px 2px 1px #3C685C; box-shadow: 2px 2px 2px 1px #3C685C; }
 
 .home .tech-stack .tech-stack-section { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -ms-flex-wrap: wrap; flex-wrap: wrap; width: 100%; }
 
-.about img { width: 10rem; height: auto; color: aliceblue; }
+.about .container { margin: 2rem 5rem; }
 
-.about h1 { font-family: "Shadows Into Light Two", cursive; letter-spacing: 2px; }
+.about .about-portrait { background-color: #EFF3F6; padding: 2rem; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+
+.about .about-portrait img { width: 20rem; height: auto; color: aliceblue; }
+
+.about .about-text { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; padding: 2rem; }
+
+.about .about-text h1 { font-family: "Shadows Into Light Two", cursive; letter-spacing: 2px; }
 
 .tech-container .tech-stack-img { -webkit-box-sizing: content-box; box-sizing: content-box; padding: 2rem 3rem; width: auto; height: 80px; }
 
 * { -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 body { color: #EFF3F6; font-family: "Monsterrat", sans-serif; letter-spacing: 1px; }
+
+h1, h2, h3, h4, h5, h6 { font-family: "Shadows Into Light Two", cursive; color: #EFF3F6; }
 /*# sourceMappingURL=main.css.map */

@@ -1,12 +1,28 @@
-.about{ 
-  
-  img{
-  width: 10rem;
-  height: auto;
-  color: aliceblue;
+.about{
+  .container{
+    margin:2rem 5rem;
   }
-  h1{
-    font-family: $handwriting-font;
-    letter-spacing: 2px;
+  .about-portrait{
+    background-color: $font-color;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    img{
+    width: 20rem;
+    height: auto;
+    color: aliceblue;
+    }
+  }
+  .about-text{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+    h1{
+      font-family: $handwriting-font;
+      letter-spacing: 2px;
+    }
   }
 }
