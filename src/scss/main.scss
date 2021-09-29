@@ -10,6 +10,9 @@
 *{
   box-sizing: border-box;
 }
+html{
+  scroll-behavior: smooth;
+}
 body{
   color: $font-color;
   font-family: $base-font;

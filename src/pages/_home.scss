@@ -1,7 +1,6 @@
 .home {
   display: flex;
-  flex-direction: column;
-
+  flex-direction:column;
   hr {
     margin: 20px auto;
     width: 95%;
@@ -21,7 +20,7 @@
     background-color: transparentize($font-color, 0.8);
     margin: 2rem 3rem;
     padding: 1rem;
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: 2px 2px 2px 1px $hookers-green;
     .tech-stack-section {
       display: flex;

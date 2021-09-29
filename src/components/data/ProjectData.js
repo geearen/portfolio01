@@ -3,7 +3,8 @@ export const ProjectData = [
     key: 0,
     className: "project1",
     title: "Jujutsu Kaisen-Gotchi",
-    description: "",
+    description:
+      "Jujutsu Kaisen-Gotchi was my first project I built as a part of General Assembly's Software Engineering Immersive Program.",
     deployed: "https://geearen.github.io/Jujutsu-Kaisen-Gotchi/",
     github: "https://github.com/geearen/Jujutsu-Kaisen-Gotchi",
   },
@@ -11,7 +12,8 @@ export const ProjectData = [
     key: 1,
     className: "project2",
     title: "Goodeats",
-    description: "",
+    description:
+      "Goodeats is a recipe website where user get to share their recipes. ",
     deployed: "https://goodeats-allen-nick.herokuapp.com/",
     github: "https://github.com/geearen/Goodeats",
   },
@@ -19,7 +21,8 @@ export const ProjectData = [
     key: 2,
     className: "project3",
     title: "The Wayfarer",
-    description: "",
+    description:
+      "Wayfarer is a travel app aimed specifically at enabling users to post nightlife stories and tips for the cities of their choice.",
     deployed: "https://the-number-one-wayfarer.herokuapp.com/",
     github: "https://github.com/geearen/the-wayfarer",
   },
@@ -27,7 +30,8 @@ export const ProjectData = [
     key: 3,
     className: "project4",
     title: "FotoNegative",
-    description: "",
+    description:
+      "FotoNegative is a full stack application targeting on photographers and hobbyists, where it allows users to views different types of camera from film to digital and view sample images from that camera. Inspired by KenRockwell.com and Instagram",
     deployed: "https://fotonegative.herokuapp.com/",
     github: "https://github.com/geearen/FotoNegative",
   },

@@ -10,25 +10,27 @@
 
 .home hr { margin: 20px auto; width: 95%; border: 0; height: 1px; background-image: -webkit-gradient(linear, left top, right top, from(#263743), color-stop(#EFF3F6), to(#263743)); background-image: linear-gradient(to right, #263743, #EFF3F6, #263743); }
 
-.home .tech-stack { text-align: center; font-family: "Shadows Into Light Two", cursive; background-color: rgba(239, 243, 246, 0.2); margin: 2rem 3rem; padding: 1rem; border-radius: 5px; -webkit-box-shadow: 2px 2px 2px 1px #3C685C; box-shadow: 2px 2px 2px 1px #3C685C; }
+.home .tech-stack { text-align: center; font-family: "Shadows Into Light Two", cursive; background-color: rgba(239, 243, 246, 0.2); margin: 2rem 3rem; padding: 1rem; border-radius: 10px; -webkit-box-shadow: 2px 2px 2px 1px #3C685C; box-shadow: 2px 2px 2px 1px #3C685C; }
 
 .home .tech-stack .tech-stack-section { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -ms-flex-wrap: wrap; flex-wrap: wrap; width: 100%; }
 
 .home .projects { text-align: center; margin: 2rem 3rem; padding: 1rem; }
 
+.about { margin: 2rem; background: rgba(239, 243, 246, 0.3); padding: 10px; -webkit-box-shadow: 5px 5px 0px 3px #5C9499; box-shadow: 5px 5px 0px 3px #5C9499; border-radius: 10px; }
+
 .about .container { margin: 2rem 5rem; }
 
-.about .about-portrait { background-color: #EFF3F6; padding: 2rem; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+.about .about-portrait { background-color: #EFF3F6; padding: 2rem; margin: 0.5rem; width: 50%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; border-radius: 50% 10% / 25%; -webkit-box-shadow: 5px 5px 0px 5px #5C9499; box-shadow: 5px 5px 0px 5px #5C9499; overflow: hidden; }
 
-.about .about-portrait img { width: 20rem; height: auto; color: aliceblue; }
+.about .about-portrait img { width: 25rem; height: auto; }
 
-.about .about-text { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; padding: 2rem; }
+.about .about-text { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; padding: 2rem; margin: 1rem; }
 
 .about .about-text h1 { font-family: "Shadows Into Light Two", cursive; letter-spacing: 2px; }
 
-.contact-section { padding: 2rem; margin: 2rem; }
+.contact-section { padding: 2rem; margin: 2rem; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
 
-.contact-section .contact-content { padding: 1rem; margin: 0.5rem; border-radius: 5px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-transition: 0.6s linear; transition: 0.6s linear; }
+.contact-section .contact-content { padding: 1rem; margin: 0.5rem; width: 750px; height: 750px; border-radius: 50% 10% / 25%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-transition: 0.6s linear; transition: 0.6s linear; -webkit-box-shadow: 5px 5px 0px 5px #5C9499; box-shadow: 5px 5px 0px 5px #5C9499; }
 
 .contact-section h2 { padding: 0.8rem; color: #263743; }
 
@@ -43,6 +45,8 @@
 .container .project-container { background-color: rgba(239, 243, 246, 0.5); padding: 2rem; border-radius: 5px; }
 
 * { -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
 
 body { color: #EFF3F6; font-family: "Monsterrat", sans-serif; letter-spacing: 1px; }
 

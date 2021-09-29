@@ -16,7 +16,7 @@ function Home(){
         </div>
 
         <hr />
-        <div className="projects">
+        <div className="projects" id="projects">
           <h1>Projects</h1>
           <section
             className="projects-section uk-child-width-1-2@s uk-child-width-1-2@m"
@@ -27,7 +27,7 @@ function Home(){
         </div>
 
         <hr />
-        <div className="tech-stack">
+        <div className="tech-stack" id="tech-stack">
           <h1>Tech Stack</h1>
           <section className="tech-stack-section">
             <Stacks />
@@ -35,7 +35,7 @@ function Home(){
         </div>
 
         <hr />
-        <div className="contact-info">
+        <div className="contact-info" id="contact">
           <Contact />
         </div>
       </div>

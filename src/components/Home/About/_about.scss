@@ -1,16 +1,29 @@
 .about{
+  margin: 2rem;
+  background: transparentize($font-color, 0.7);
+  padding: 10px;
+  box-shadow: 5px 5px 0px 3px $light-deep-space;
+  border-radius: 10px;
+
   .container{
     margin:2rem 5rem;
   }
   .about-portrait{
     background-color: $font-color;
     padding: 2rem;
+    margin: 0.5rem;
+    width: 50%;
     display: flex;
     justify-content: center;
+    align-items: center;
+    border-radius: 50% 10% / 25%;
+    box-shadow: 5px 5px 0px 5px $light-deep-space;
+    overflow: hidden;
+
+
     img{
-    width: 20rem;
+    width: 25rem;
     height: auto;
-    color: aliceblue;
     }
   }
   .about-text{
@@ -20,6 +33,7 @@
     align-items: center;
     flex-direction: column;
     padding: 2rem;
+    margin: 1rem;
     h1{
       font-family: $handwriting-font;
       letter-spacing: 2px;

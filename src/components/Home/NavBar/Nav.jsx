@@ -8,17 +8,17 @@ function Nav(){
         <ul className="uk-navbar-nav">
           <li className="uk-navbar-item">
             <NavLink exact to="/">
-              Allen Gonzales
+              Home
             </NavLink>
           </li>
           <li className="uk-navbar-item">
-            <a href="">Projects</a>
+            <a href="#projects">Projects</a>
           </li>
           <li className="uk-navbar-item">
-            <a href="">Tech Stack</a>
+            <a href="#tech-stack">Tech Stack</a>
           </li>
           <li className="uk-navbar-item">
-            <a href="">Contact</a>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
       </div>

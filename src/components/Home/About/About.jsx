@@ -1,7 +1,5 @@
 import React from 'react'
 
-
-
 export default function About() {
   return (
     <section className="about uk-child-width-expand@s" data-uk-grid>
