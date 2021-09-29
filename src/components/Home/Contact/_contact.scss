@@ -1,5 +1,5 @@
 .contact-section{
-  padding:1rem;
+  padding:2rem;
   margin: 2rem;
   .contact-content{
     padding: 1rem;
@@ -11,11 +11,18 @@
     align-items: center;
     transition: 0.6s linear;
   }
+  h2{
+    padding:0.8rem;
+    color: $background-dark;
+  }
   a{
     padding:0.8rem;
+    span{
+      margin:0.5rem;
+    }
   }
   .contact-content:hover{
     outline-width: 10px;
-    box-shadow: 1px 1px 2px 10px $light-deep-space;
+    box-shadow: 1px 1px 5px 10px $light-deep-space;
   }
 }

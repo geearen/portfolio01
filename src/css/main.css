@@ -26,13 +26,17 @@
 
 .about .about-text h1 { font-family: "Shadows Into Light Two", cursive; letter-spacing: 2px; }
 
-.contact-section { padding: 1rem; margin: 2rem; }
+.contact-section { padding: 2rem; margin: 2rem; }
 
 .contact-section .contact-content { padding: 1rem; margin: 0.5rem; border-radius: 5px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-transition: 0.6s linear; transition: 0.6s linear; }
 
+.contact-section h2 { padding: 0.8rem; color: #263743; }
+
 .contact-section a { padding: 0.8rem; }
 
-.contact-section .contact-content:hover { outline-width: 10px; -webkit-box-shadow: 1px 1px 2px 10px #5C9499; box-shadow: 1px 1px 2px 10px #5C9499; }
+.contact-section a span { margin: 0.5rem; }
+
+.contact-section .contact-content:hover { outline-width: 10px; -webkit-box-shadow: 1px 1px 5px 10px #5C9499; box-shadow: 1px 1px 5px 10px #5C9499; }
 
 .tech-container .tech-stack-img { -webkit-box-sizing: content-box; box-sizing: content-box; padding: 2rem 3rem; width: auto; height: 80px; }
 
