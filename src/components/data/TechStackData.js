@@ -48,7 +48,7 @@ export const TechStackData = [
     key: 4,
     src: react,
     alt: "React",
-    span: "React: This portfolio was built w/ React!",
+    span: "React, This portfolio was built w/ React!",
   },
   {
     key: 5,
@@ -90,7 +90,7 @@ export const TechStackData = [
     key: 11,
     src: sass,
     alt: "SASS",
-    span: "SASS: This porfolio was compiled with SASS",
+    span: "SASS, This porfolio was compiled with SASS!",
   },
   {
     key: 12,
@@ -102,7 +102,7 @@ export const TechStackData = [
     key: 13,
     src: uikit,
     alt: "UIkit",
-    span: "UIkit: This porfolio is using UIkit!",
+    span: "UIkit, This porfolio is using UIkit!",
   },
   {
     key: 14,

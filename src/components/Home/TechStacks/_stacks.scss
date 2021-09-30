@@ -4,5 +4,9 @@
     padding: 2rem 3rem;
     width: auto;
     height: 80px;
+    transition: ease-in-out 250ms;
+  }
+  .tech-stack-img:hover{
+    transform: translateY(-10px);
   }
 }

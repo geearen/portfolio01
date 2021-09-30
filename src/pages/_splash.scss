@@ -1,0 +1,29 @@
+.splash{
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  .left-section{
+    padding:0.8rem;
+    margin:1rem;
+  }
+  .right-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:0.8rem;
+    margin:1rem;
+    a{
+      font-family: $base-font;
+      text-decoration: none;
+    }
+  }
+}
+@media screen and (max-width: 480px) {
+  .splash{
+    height: 80vh;
+  }
+}

@@ -5,12 +5,13 @@ export default function Stacks() {
   return (
     <>
     {TechStackData.map((item,index) =>{
-      return(
+      return (
         <div key={index} className="tech-container">
-          <img className="tech-stack-img" src={item.src} alt={item.alt} />
-          {/* <span>{item.span}</span> */}
+          <div data-uk-tooltip={item.span}>
+            <img className="tech-stack-img" src={item.src} alt={item.alt} />
+          </div>
         </div>
-      )
+      );
     })} 
     </>
   )
