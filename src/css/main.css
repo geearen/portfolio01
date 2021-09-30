@@ -15,7 +15,7 @@
 
 .splash .left-section { padding: 0.8rem; margin: 1rem; }
 
-.splash .right-section { position: relative; z-index: 1; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; width: 720px; -webkit-box-align: center; -ms-flex-align: center; align-items: center; padding: 4rem 1.5rem; margin: 1rem 50px 50px; background: #EFF3F6; text-align: center; border-top-left-radius: 220px 120px; border-top-right-radius: 220px 120px; border-bottom-right-radius: 220px 120px; border-bottom-left-radius: 220px 120px; border-radius: 220px /120px; }
+.splash .right-section { position: relative; z-index: 1; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; width: 720px; -webkit-box-align: center; -ms-flex-align: center; align-items: center; padding: 4rem 1.5rem; margin: 1rem 50px 50px; background: #EFF3F6; text-align: center; border-top-left-radius: 220px 120px; border-top-right-radius: 220px 120px; border-bottom-right-radius: 220px 120px; border-bottom-left-radius: 220px 120px; border-radius: 220px /120px; -webkit-box-shadow: 3px -5px 0px 1px #5C9499; box-shadow: 3px -5px 0px 1px #5C9499; }
 
 .splash .right-section h1 { color: #2B3D4A; }
 
@@ -25,7 +25,7 @@
 
 .splash .right-section::before { content: ""; position: absolute; z-index: -1; bottom: -30px; right: 50%; height: 30px; border-right: 60px solid #EFF3F6; background: #EFF3F6; -webkit-transform: translate(0, -2px); transform: translate(0, -2px); border-bottom-right-radius: 80px 50px; transform: translate(0, -2px); }
 
-.splash .right-section::after { content: ""; position: absolute; z-index: -1; bottom: -32px; right: 50%; width: 60px; height: 30px; background: #2B3D4A; border-bottom-right-radius: 40px 50px; -webkit-transform: translate(-30px, -2px); transform: translate(-30px, -2px); }
+.splash .right-section::after { content: ""; position: absolute; z-index: -1; bottom: -32px; right: 50%; width: 60px; height: 30px; background: #2B3D4A; border-bottom-right-radius: 45px 45px; -webkit-transform: translate(-30px, -2px); transform: translate(-30px, -2px); }
 
 @-webkit-keyframes typing { from { width: 0; }
   to { width: 60%; } }
@@ -75,7 +75,7 @@
 
 .tech-container .tech-stack-img:hover { -webkit-transform: translateY(-10px); transform: translateY(-10px); }
 
-.container .project-container { border-radius: 5px; height: 400px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; overflow: hidden; }
+.container .project-container { border-radius: 5px; height: 400px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; overflow: hidden; -webkit-box-shadow: 3px 3px 0px 1px #5C9499; box-shadow: 3px 3px 0px 1px #5C9499; }
 
 .container .project-container .meta-info { visibility: hidden; background-color: rgba(43, 61, 74, 0.8); -ms-flex-item-align: end; align-self: flex-end; height: 60%; width: 100%; text-align: center; padding: 1rem; }
 

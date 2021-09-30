@@ -26,6 +26,8 @@
     border-bottom-right-radius:220px 120px;
     border-bottom-left-radius:220px 120px;
     border-radius:220px /120px;
+    box-shadow: 3px -5px 0px 1px $light-deep-space;
+
     h1{
     color: $background-dark;
     }
@@ -56,6 +58,7 @@
     transform:translate(0, -2px);
     border-bottom-right-radius:80px 50px;
     transform:translate(0, -2px);
+
   }
   .right-section::after{
     content:"";
@@ -66,7 +69,7 @@
     width:60px;
     height:30px;
     background: #2B3D4A;
-    border-bottom-right-radius:40px 50px;
+    border-bottom-right-radius:45px 45px;
     transform:translate(-30px, -2px);
   }
 }
