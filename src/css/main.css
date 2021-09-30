@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Marcellus+SC&family=Montserrat:wght@100;200;300;400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
 .home { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; width: 70%; margin-left: auto; margin-right: auto; }
 
 .home hr { margin: 20px auto; width: 95%; border: 0; height: 1px; background-image: -webkit-gradient(linear, left top, right top, from(#263743), color-stop(#EFF3F6), to(#263743)); background-image: linear-gradient(to right, #263743, #EFF3F6, #263743); }
@@ -14,9 +15,29 @@
 
 .splash .left-section { padding: 0.8rem; margin: 1rem; }
 
-.splash .right-section { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; padding: 0.8rem; margin: 1rem; }
+.splash .right-section { position: relative; z-index: 1; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; width: 720px; -webkit-box-align: center; -ms-flex-align: center; align-items: center; padding: 4rem 1.5rem; margin: 1rem 50px 50px; background: #EFF3F6; text-align: center; border-top-left-radius: 220px 120px; border-top-right-radius: 220px 120px; border-bottom-right-radius: 220px 120px; border-bottom-left-radius: 220px 120px; border-radius: 220px /120px; }
 
-.splash .right-section a { font-family: "Monsterrat", sans-serif; text-decoration: none; }
+.splash .right-section h1 { color: #263743; }
+
+.splash .right-section a { font-family: "Space Mono", monospace; text-decoration: none; color: #3F3C68; overflow: hidden; border-right: 0.15em solid #5C9499; white-space: nowrap; margin: 0 auto; letter-spacing: .10em; -webkit-animation: typing 3.5s steps(30, end), blink-caret 0.5s step-end infinite; animation: typing 3.5s steps(30, end), blink-caret 0.5s step-end infinite; }
+
+.splash .right-section a:hover { text-shadow: 1px 1px 0px #6577A4; }
+
+.splash .right-section::before { content: ""; position: absolute; z-index: -1; bottom: -30px; right: 50%; height: 30px; border-right: 60px solid #EFF3F6; background: #EFF3F6; -webkit-transform: translate(0, -2px); transform: translate(0, -2px); border-bottom-right-radius: 80px 50px; transform: translate(0, -2px); }
+
+.splash .right-section::after { content: ""; position: absolute; z-index: -1; bottom: -32px; right: 50%; width: 60px; height: 30px; background: #2B3D4A; border-bottom-right-radius: 40px 50px; -webkit-transform: translate(-30px, -2px); transform: translate(-30px, -2px); }
+
+@-webkit-keyframes typing { from { width: 0; }
+  to { width: 60%; } }
+
+@keyframes typing { from { width: 0; }
+  to { width: 60%; } }
+
+@-webkit-keyframes blink-caret { from, to { border-color: transparent; }
+  50% { border-color: #5C9499; } }
+
+@keyframes blink-caret { from, to { border-color: transparent; }
+  50% { border-color: #5C9499; } }
 
 @media screen and (max-width: 480px) { .splash { height: 80vh; } }
 

@@ -13,7 +13,7 @@ export default function Splash() {
         <h1>Hi, I'm Allen Gonzales 👋 
           <br/>and I love coffee ☕
         </h1>
-        <a href="/home"> ~yarn create-react-app my-portfolio </a>
+        <a href="/home"> ~ yarn create-react-app my-portfolio </a>
       </div>
     </div>
   );
