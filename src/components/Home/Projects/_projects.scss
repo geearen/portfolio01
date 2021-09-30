@@ -6,15 +6,19 @@
     justify-content: center;
     overflow: hidden;
     box-shadow: 3px 3px 0px 1px $light-deep-space;
+    position: relative;
+
     
     .meta-info{
-      visibility: hidden;
       background-color: transparentize($background-dark,  0.2);
       align-self: flex-end;
       height: 60%;
       width: 100%;
       text-align: center;
       padding: 1rem;
+      position: absolute;
+      top:100%;
+      transition: .5s;
 
       a, span{
         padding-left: .5rem;
@@ -48,8 +52,7 @@
     background-size: cover;
     background-position: center;
     .meta-info{
-      visibility: visible;
-      animation: moveup .8s steps(60, end);
+      top:40%;
     }
   }
   .project2:hover{
@@ -57,8 +60,7 @@
     background-size: cover;
     background-position: center;
     .meta-info{
-      visibility: visible;
-      animation: moveup .8s steps(60, end);
+      top:40%;
     }
   }
   .project3:hover{
@@ -66,8 +68,7 @@
     background-size: cover;
     background-position: center;
     .meta-info{
-      visibility: visible;
-      animation: moveup .8s steps(60, end);
+      top:40%;
     }
   }
   .project4:hover{
@@ -75,14 +76,7 @@
     background-size: cover;
     background-position: center;
     .meta-info{
-      visibility: visible;
-      animation: moveup .8s steps(60, end);
+      top:40%;
     }
   }
-}
-
-@keyframes moveup {
-  from{ height:0}
-  to { height:60%}
-  
 }

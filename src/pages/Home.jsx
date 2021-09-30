@@ -10,7 +10,7 @@ function Home(){
   return (
     <>
       <Nav />
-      <div className="home">
+      <div className="home" id="home">
         <div className="about-me">
           <About />
         </div>

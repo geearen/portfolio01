@@ -75,9 +75,9 @@
 
 .tech-container .tech-stack-img:hover { -webkit-transform: translateY(-10px); transform: translateY(-10px); }
 
-.container .project-container { border-radius: 5px; height: 400px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; overflow: hidden; -webkit-box-shadow: 3px 3px 0px 1px #5C9499; box-shadow: 3px 3px 0px 1px #5C9499; }
+.container .project-container { border-radius: 5px; height: 400px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; overflow: hidden; -webkit-box-shadow: 3px 3px 0px 1px #5C9499; box-shadow: 3px 3px 0px 1px #5C9499; position: relative; }
 
-.container .project-container .meta-info { visibility: hidden; background-color: rgba(43, 61, 74, 0.8); -ms-flex-item-align: end; align-self: flex-end; height: 60%; width: 100%; text-align: center; padding: 1rem; }
+.container .project-container .meta-info { background-color: rgba(43, 61, 74, 0.8); -ms-flex-item-align: end; align-self: flex-end; height: 60%; width: 100%; text-align: center; padding: 1rem; position: absolute; top: 100%; -webkit-transition: .5s; transition: .5s; }
 
 .container .project-container .meta-info a, .container .project-container .meta-info span { padding-left: .5rem; padding-right: .5rem; text-decoration: none; }
 
@@ -91,25 +91,19 @@
 
 .container .project1:hover { background-image: url("../projects-snaps/kaisen-gotchi-gif.gif"); background-size: cover; background-position: center; }
 
-.container .project1:hover .meta-info { visibility: visible; -webkit-animation: moveup 0.8s steps(60, end); animation: moveup 0.8s steps(60, end); }
+.container .project1:hover .meta-info { top: 40%; }
 
 .container .project2:hover { background-image: url("../projects-snaps/goodeats-gif.gif"); background-size: cover; background-position: center; }
 
-.container .project2:hover .meta-info { visibility: visible; -webkit-animation: moveup 0.8s steps(60, end); animation: moveup 0.8s steps(60, end); }
+.container .project2:hover .meta-info { top: 40%; }
 
 .container .project3:hover { background-image: url("../projects-snaps/wayfarer-gif.gif"); background-size: cover; background-position: center; }
 
-.container .project3:hover .meta-info { visibility: visible; -webkit-animation: moveup 0.8s steps(60, end); animation: moveup 0.8s steps(60, end); }
+.container .project3:hover .meta-info { top: 40%; }
 
 .container .project4:hover { background-image: url("../projects-snaps/fotonegative-gif.gif"); background-size: cover; background-position: center; }
 
-.container .project4:hover .meta-info { visibility: visible; -webkit-animation: moveup 0.8s steps(60, end); animation: moveup 0.8s steps(60, end); }
-
-@-webkit-keyframes moveup { from { height: 0; }
-  to { height: 60%; } }
-
-@keyframes moveup { from { height: 0; }
-  to { height: 60%; } }
+.container .project4:hover .meta-info { top: 40%; }
 
 * { -webkit-box-sizing: border-box; box-sizing: border-box; }
 

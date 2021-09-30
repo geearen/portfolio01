@@ -3,7 +3,7 @@ import React from 'react'
 export default function Footer() {
   return (
     <div>
-      Footer here
+      <a href="#home" uk-icon="icon: chevron-up; ratio: 3" uk-scroll></a>
     </div>
-  )
+  );
 }
