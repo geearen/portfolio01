@@ -1,7 +1,87 @@
 .container{
   .project-container{
-    background-color: transparentize($font-color, 0.5);
-    padding: 2rem;
     border-radius: 5px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    
+    .meta-info{
+      visibility: hidden;
+      background-color: transparentize($background-dark,  0.2);
+      align-self: flex-end;
+      height: 60%;
+      width: 100%;
+      text-align: center;
+      padding: 1rem;
+
+      a, span{
+        padding-left: .5rem;
+        padding-right: .5rem;
+        text-decoration: none;
+      }
+    }
   }
+  
+  
+
+  .project1{
+    background-image: url("../projects-snaps/kaisen-gotchi.jpg");
+    background-size: cover;
+  }
+  .project2{
+    background-image: url("../projects-snaps/goodeats.png");
+    background-size: cover;
+  }
+  .project3{
+    background-image: url("../projects-snaps/the-wayfarer.jpg");
+    background-size: cover;
+  }
+  .project4{
+    background-image: url("../projects-snaps/fotonegative.jpg");
+    background-size: cover;
+  }
+
+  .project1:hover{
+    background-image: url("../projects-snaps/kaisen-gotchi-gif.gif");
+    background-size: cover;
+    background-position: center;
+    .meta-info{
+      visibility: visible;
+      animation: moveup .8s steps(60, end);
+    }
+  }
+  .project2:hover{
+    background-image: url("../projects-snaps/goodeats-gif.gif");
+    background-size: cover;
+    background-position: center;
+    .meta-info{
+      visibility: visible;
+      animation: moveup .8s steps(60, end);
+    }
+  }
+  .project3:hover{
+    background-image: url("../projects-snaps/wayfarer-gif.gif");
+    background-size: cover;
+    background-position: center;
+    .meta-info{
+      visibility: visible;
+      animation: moveup .8s steps(60, end);
+    }
+  }
+  .project4:hover{
+    background-image: url("../projects-snaps/fotonegative-gif.gif");
+    background-size: cover;
+    background-position: center;
+    .meta-info{
+      visibility: visible;
+      animation: moveup .8s steps(60, end);
+    }
+  }
+}
+
+@keyframes moveup {
+  from{ height:0}
+  to { height:60%}
+  
 }

@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
 .home { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; width: 70%; margin-left: auto; margin-right: auto; }
 
-.home hr { margin: 20px auto; width: 95%; border: 0; height: 1px; background-image: -webkit-gradient(linear, left top, right top, from(#263743), color-stop(#EFF3F6), to(#263743)); background-image: linear-gradient(to right, #263743, #EFF3F6, #263743); }
+.home hr { margin: 20px auto; width: 95%; border: 0; height: 1px; background-image: -webkit-gradient(linear, left top, right top, from(#2B3D4A), color-stop(#EFF3F6), to(#2B3D4A)); background-image: linear-gradient(to right, #2B3D4A, #EFF3F6, #2B3D4A); }
 
 .home .tech-stack { text-align: center; font-family: "Shadows Into Light Two", cursive; background-color: rgba(239, 243, 246, 0.2); margin: 2rem 3rem; padding: 1rem; border-radius: 10px; -webkit-box-shadow: 5px 5px 0px 2px #5C9499; box-shadow: 5px 5px 0px 2px #5C9499; }
 
@@ -17,7 +17,7 @@
 
 .splash .right-section { position: relative; z-index: 1; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; width: 720px; -webkit-box-align: center; -ms-flex-align: center; align-items: center; padding: 4rem 1.5rem; margin: 1rem 50px 50px; background: #EFF3F6; text-align: center; border-top-left-radius: 220px 120px; border-top-right-radius: 220px 120px; border-bottom-right-radius: 220px 120px; border-bottom-left-radius: 220px 120px; border-radius: 220px /120px; }
 
-.splash .right-section h1 { color: #263743; }
+.splash .right-section h1 { color: #2B3D4A; }
 
 .splash .right-section a { font-family: "Space Mono", monospace; text-decoration: none; color: #3F3C68; overflow: hidden; border-right: 0.15em solid #5C9499; white-space: nowrap; margin: 0 auto; letter-spacing: .10em; -webkit-animation: typing 3.5s steps(30, end), blink-caret 0.5s step-end infinite; animation: typing 3.5s steps(30, end), blink-caret 0.5s step-end infinite; }
 
@@ -43,7 +43,7 @@
 
 .navbar-container { background-color: rgba(101, 119, 164, 0.5); }
 
-.uk-navbar-nav li > a { font-family: "Shadows Into Light Two", cursive; letter-spacing: 3px; padding: 0.8rem; margin: .2rem; font-size: 1.5rem; color: #EFF3F6; text-shadow: 2px 2px 0px #263743; }
+.uk-navbar-nav li > a { font-family: "Shadows Into Light Two", cursive; letter-spacing: 3px; padding: 0.8rem; margin: .2rem; font-size: 1.5rem; color: #EFF3F6; text-shadow: 2px 2px 0px #2B3D4A; }
 
 .uk-navbar-nav li > a:hover { color: #6577A4; text-shadow: 0px 1px 0px #EFF3F6; }
 
@@ -63,7 +63,7 @@
 
 .contact-section .contact-content { padding: 1rem; margin: 0.5rem; width: 750px; height: 750px; border-radius: 50% 10% / 25%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-transition: 0.6s linear; transition: 0.6s linear; -webkit-box-shadow: 5px 5px 0px 5px #5C9499; box-shadow: 5px 5px 0px 5px #5C9499; }
 
-.contact-section h2 { padding: 0.8rem; color: #263743; }
+.contact-section h2 { padding: 0.8rem; color: #2B3D4A; }
 
 .contact-section a { padding: 0.8rem; }
 
@@ -75,7 +75,41 @@
 
 .tech-container .tech-stack-img:hover { -webkit-transform: translateY(-10px); transform: translateY(-10px); }
 
-.container .project-container { background-color: rgba(239, 243, 246, 0.5); padding: 2rem; border-radius: 5px; }
+.container .project-container { border-radius: 5px; height: 400px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; overflow: hidden; }
+
+.container .project-container .meta-info { visibility: hidden; background-color: rgba(43, 61, 74, 0.8); -ms-flex-item-align: end; align-self: flex-end; height: 60%; width: 100%; text-align: center; padding: 1rem; }
+
+.container .project-container .meta-info a, .container .project-container .meta-info span { padding-left: .5rem; padding-right: .5rem; text-decoration: none; }
+
+.container .project1 { background-image: url("../projects-snaps/kaisen-gotchi.jpg"); background-size: cover; }
+
+.container .project2 { background-image: url("../projects-snaps/goodeats.png"); background-size: cover; }
+
+.container .project3 { background-image: url("../projects-snaps/the-wayfarer.jpg"); background-size: cover; }
+
+.container .project4 { background-image: url("../projects-snaps/fotonegative.jpg"); background-size: cover; }
+
+.container .project1:hover { background-image: url("../projects-snaps/kaisen-gotchi-gif.gif"); background-size: cover; background-position: center; }
+
+.container .project1:hover .meta-info { visibility: visible; -webkit-animation: moveup 0.8s steps(60, end); animation: moveup 0.8s steps(60, end); }
+
+.container .project2:hover { background-image: url("../projects-snaps/goodeats-gif.gif"); background-size: cover; background-position: center; }
+
+.container .project2:hover .meta-info { visibility: visible; -webkit-animation: moveup 0.8s steps(60, end); animation: moveup 0.8s steps(60, end); }
+
+.container .project3:hover { background-image: url("../projects-snaps/wayfarer-gif.gif"); background-size: cover; background-position: center; }
+
+.container .project3:hover .meta-info { visibility: visible; -webkit-animation: moveup 0.8s steps(60, end); animation: moveup 0.8s steps(60, end); }
+
+.container .project4:hover { background-image: url("../projects-snaps/fotonegative-gif.gif"); background-size: cover; background-position: center; }
+
+.container .project4:hover .meta-info { visibility: visible; -webkit-animation: moveup 0.8s steps(60, end); animation: moveup 0.8s steps(60, end); }
+
+@-webkit-keyframes moveup { from { height: 0; }
+  to { height: 60%; } }
+
+@keyframes moveup { from { height: 0; }
+  to { height: 60%; } }
 
 * { -webkit-box-sizing: border-box; box-sizing: border-box; }
 
