@@ -12,6 +12,9 @@ function Nav(){
             </NavLink>
           </li>
           <li className="uk-navbar-item">
+            <a href="#about-me">About me</a>
+          </li>
+          <li className="uk-navbar-item">
             <a href="#projects">Projects</a>
           </li>
           <li className="uk-navbar-item">

@@ -15,7 +15,7 @@
   .home .projects { margin: 1rem; padding: .5rem; }
   .home .tech-stack { margin: 1rem 2rem; padding: 0rem; } }
 
-.splash { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap-reverse; flex-wrap: wrap-reverse; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; height: 100vh; }
+.splash { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; height: 100vh; }
 
 .splash .left-section { padding: 0.8rem; margin: 1rem; }
 
@@ -45,29 +45,42 @@
 
 @media screen and (max-width: 480px) { .splash { height: 80vh; } }
 
+@media screen and (max-width: 480px) { .splash { -webkit-box-orient: vertical; -webkit-box-direction: reverse; -ms-flex-direction: column-reverse; flex-direction: column-reverse; }
+  .splash .left-section { width: 90%; -ms-flex-item-align: end; align-self: flex-end; }
+  .splash .right-section { width: 90%; }
+  .splash .right-section h1 { font-size: 20px; }
+  .splash .right-section a { font-size: 15px; } }
+
 .navbar-container { background-color: rgba(101, 119, 164, 0.5); }
 
 .uk-navbar-nav li > a { font-family: "Shadows Into Light Two", cursive; letter-spacing: 3px; padding: 0.8rem; margin: .2rem; font-size: 1.5rem; color: #EFF3F6; text-shadow: 2px 2px 0px #2B3D4A; }
 
 .uk-navbar-nav li > a:hover { color: #6577A4; text-shadow: 0px 1px 0px #EFF3F6; }
 
-.about { margin: 2rem; background: rgba(239, 243, 246, 0.3); padding: 10px; -webkit-box-shadow: 5px 5px 0px 3px #5C9499; box-shadow: 5px 5px 0px 3px #5C9499; border-radius: 10px; }
+.about { margin: 2rem; padding: 10px; }
 
 .about .container { margin: 2rem 5rem; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
 
-.about .about-portrait { background-color: #EFF3F6; padding: 1rem; width: object-fit; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; margin-left: auto; margin-right: auto; border-radius: 50% 10% / 25%; -webkit-box-shadow: 5px 5px 0px 5px #5C9499; box-shadow: 5px 5px 0px 5px #5C9499; overflow: hidden; }
+.about .about-portrait { background-color: #EFF3F6; padding: 1rem; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; margin-left: auto; margin-right: auto; border-radius: 50% 10% / 25%; -webkit-box-shadow: 5px 5px 0px 5px #5C9499; box-shadow: 5px 5px 0px 5px #5C9499; overflow: hidden; -webkit-transition: 2s; transition: 2s; }
 
 .about .about-portrait img { width: 500px; height: auto; border-radius: 50% 10% / 25%; }
 
-.about .about-text { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; padding: 2rem; margin: 1rem; }
+.about .about-portrait:hover { -webkit-transform: rotateY(180deg); transform: rotateY(180deg); }
 
-.about .about-text h1 { font-family: "Shadows Into Light Two", cursive; letter-spacing: 2px; }
+.about .about-text { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; background: rgba(239, 243, 246, 0.3); -webkit-box-shadow: 5px 5px 0px 3px #5C9499; box-shadow: 5px 5px 0px 3px #5C9499; border-radius: 10px; padding: 2rem; margin: 1rem; }
+
+.about .about-text h1 { letter-spacing: 2px; text-align: center; }
+
+.about .table { text-align: center; background: rgba(239, 243, 246, 0.3); -webkit-box-shadow: 5px 5px 0px 3px #5C9499; box-shadow: 5px 5px 0px 3px #5C9499; border-radius: 10px; padding: 2rem; margin: 1rem; }
 
 @media screen and (max-width: 480px) { .about .container { margin: 1rem; padding-left: 0px; }
-  .about .about-portrait { -ms-grid-column-align: center; justify-self: center; padding: 0.5rem; width: 100%; border-radius: 4px; }
+  .about .about-portrait { -ms-grid-column-align: center; justify-self: center; padding: 0.5rem; border-radius: 4px; }
   .about .about-portrait img { border-radius: 4px; }
-  .about .about-text { padding: 1rem; margin: 0rem; }
-  .about .about-text h1 { font-size: 25px; text-align: center; } }
+  .about .about-text { width: 99%; }
+  .about .about-text h1 { font-size: 25px; text-align: center; }
+  .about .table { width: 90%; }
+  .about .table h1 { font-size: 20px; }
+  .about .table .table-container { display: block; width: 100%; overflow-x: auto; } }
 
 .contact-section { padding: 2rem; margin: 2rem; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
 
@@ -91,7 +104,7 @@
 
 @media screen and (max-width: 480px) { .tech-container .tech-stack-img { padding: 2rem 2rem; width: auto; height: 70px; } }
 
-.container .project-container { border-radius: 5px; height: 400px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; overflow: hidden; -webkit-box-shadow: 3px 3px 0px 1px #5C9499; box-shadow: 3px 3px 0px 1px #5C9499; position: relative; }
+.container .project-container { border-radius: 10px; height: 400px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; overflow: hidden; -webkit-box-shadow: 3px 3px 0px 1px #5C9499; box-shadow: 3px 3px 0px 1px #5C9499; position: relative; }
 
 .container .project-container .meta-info { background-color: rgba(43, 61, 74, 0.8); -ms-flex-item-align: end; align-self: flex-end; height: 60%; width: 100%; text-align: center; padding: 1rem; position: absolute; top: 100%; -webkit-transition: .5s; transition: .5s; }
 

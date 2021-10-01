@@ -5,6 +5,7 @@ export const ProjectData = [
     title: "Jujutsu Kaisen-Gotchi",
     description:
       "Jujutsu Kaisen-Gotchi was my first project I built as a part of General Assembly's Software Engineering Immersive Program.",
+    tech:"HTML, CSS, JavaScript, Animate.CSS, and NES CSS Framework",
     deployed: "https://geearen.github.io/Jujutsu-Kaisen-Gotchi/",
     github: "https://github.com/geearen/Jujutsu-Kaisen-Gotchi",
   },
@@ -14,6 +15,7 @@ export const ProjectData = [
     title: "Goodeats",
     description:
       "Goodeats is a recipe website where user get to share their recipes.",
+    tech:"Node.js, Express.js, MongoDB, SASS, Semantic UI and jQuery",
     deployed: "https://goodeats-allen-nick.herokuapp.com/",
     github: "https://github.com/geearen/Goodeats",
   },
@@ -23,6 +25,7 @@ export const ProjectData = [
     title: "The Wayfarer",
     description:
       "Wayfarer is a travel app aimed specifically at enabling users to post nightlife stories and tips for the cities of their choice.",
+    tech:"Python, Django, PostgreSQL, CSS, jQuery and Skeleton",
     deployed: "https://the-number-one-wayfarer.herokuapp.com/",
     github: "https://github.com/geearen/the-wayfarer",
   },
@@ -32,6 +35,7 @@ export const ProjectData = [
     title: "FotoNegative",
     description:
       "FotoNegative is a full stack application targeting on photographers and hobbyists, where it allows users to views different types of camera from film to digital and view sample images from that camera. Inspired by KenRockwell.com and Instagram",
+    tech:"Node.js, Express.js, MongoDB, SASS, UIkit, AWS S3 and Unsplash API",
     deployed: "https://fotonegative.herokuapp.com/",
     github: "https://github.com/geearen/FotoNegative",
   },

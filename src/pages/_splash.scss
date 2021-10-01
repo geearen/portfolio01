@@ -1,6 +1,5 @@
 .splash{
   display: flex;
-  flex-wrap: wrap-reverse;
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -86,5 +85,26 @@
 @media screen and (max-width: 480px) {
   .splash{
     height: 80vh;
+  }
+}
+
+@media screen and (max-width:480px){
+  .splash{
+    flex-direction: column-reverse;
+    .left-section{
+      width: 90%;
+      align-self: flex-end;
+    }
+
+    .right-section{
+      width: 90%;
+
+      h1{
+        font-size: 20px;
+      }
+      a{
+        font-size: 15px;
+      }
+    }
   }
 }

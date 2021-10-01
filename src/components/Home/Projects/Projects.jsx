@@ -11,7 +11,7 @@ export default function Projects() {
               <div className="meta-info">
                 <h3>{item.title}</h3>
                 <p>{item.description}</p>
-
+                <p>{item.tech}</p>
                 
                   <a
                     href={item.deployed}
