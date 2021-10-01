@@ -19,7 +19,9 @@
   }
   h2{
     padding:0.8rem;
+    margin: 1rem;
     color: $background-dark;
+    text-align: center;
   }
   a{
     padding:0.8rem;
@@ -30,5 +32,24 @@
   .contact-content:hover{
     outline-width: 10px;
     box-shadow: 1px 1px 5px 10px $light-deep-space;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .contact-section{
+    padding:1rem;
+    margin: 1rem;
+    .contact-content{
+      border-radius: 4px;
+      box-shadow: 5px 5px 0px 3px $light-deep-space;
+    }
+
+    a{
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-size: 15px;
+    }
   }
 }
