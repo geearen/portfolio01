@@ -4,7 +4,7 @@ export default function Contact() {
   return (
     <div className="contact-section">
       <div className="contact-content uk-card uk-card-default">
-        <h2 className="title"> Contact Info Here: </h2>
+        <h2 className="title"> Contact Info: </h2>
         <a
           href="mailto:allengonzales018@gmail.com"
           target="_blank"
