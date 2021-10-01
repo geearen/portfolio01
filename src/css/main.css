@@ -12,7 +12,8 @@
 .home .projects { text-align: center; margin: 2rem 3rem; padding: 1rem; }
 
 @media screen and (max-width: 480px) { .home { width: 100%; }
-  .home .projects { margin: 1rem; padding: .5rem; } }
+  .home .projects { margin: 1rem; padding: .5rem; }
+  .home .tech-stack { margin: 1rem 2rem; padding: 0rem; } }
 
 .splash { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap-reverse; flex-wrap: wrap-reverse; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; height: 100vh; }
 
@@ -77,6 +78,8 @@
 .tech-container .tech-stack-img { -webkit-box-sizing: content-box; box-sizing: content-box; padding: 2rem 3rem; width: auto; height: 80px; -webkit-transition: ease-in-out 250ms; transition: ease-in-out 250ms; }
 
 .tech-container .tech-stack-img:hover { -webkit-transform: translateY(-10px); transform: translateY(-10px); }
+
+@media screen and (max-width: 480px) { .tech-container .tech-stack-img { padding: 2rem 2rem; width: auto; height: 70px; } }
 
 .container .project-container { border-radius: 5px; height: 400px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; overflow: hidden; -webkit-box-shadow: 3px 3px 0px 1px #5C9499; box-shadow: 3px 3px 0px 1px #5C9499; position: relative; }
 
