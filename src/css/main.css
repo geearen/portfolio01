@@ -5,11 +5,14 @@
 
 .home hr { margin: 20px auto; width: 95%; border: 0; height: 1px; background-image: -webkit-gradient(linear, left top, right top, from(#2B3D4A), color-stop(#EFF3F6), to(#2B3D4A)); background-image: linear-gradient(to right, #2B3D4A, #EFF3F6, #2B3D4A); }
 
-.home .tech-stack { text-align: center; font-family: "Shadows Into Light Two", cursive; background-color: rgba(239, 243, 246, 0.2); margin: 2rem 3rem; padding: 1rem; border-radius: 10px; -webkit-box-shadow: 5px 5px 0px 2px #5C9499; box-shadow: 5px 5px 0px 2px #5C9499; }
+.home .tech-stack { text-align: center; font-family: "Shadows Into Light Two", cursive; margin: 2rem 3rem; padding: 1rem; }
 
-.home .tech-stack .tech-stack-section { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -ms-flex-wrap: wrap; flex-wrap: wrap; width: 100%; }
+.home .tech-stack .tech-stack-section { background-color: rgba(239, 243, 246, 0.2); -webkit-box-shadow: 5px 5px 0px 2px #5C9499; box-shadow: 5px 5px 0px 2px #5C9499; border-radius: 10px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -ms-flex-wrap: wrap; flex-wrap: wrap; width: 100%; }
 
 .home .projects { text-align: center; margin: 2rem 3rem; padding: 1rem; }
+
+@media screen and (max-width: 480px) { .home { width: 100%; }
+  .home .projects { margin: 1rem; padding: .5rem; } }
 
 .splash { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap-reverse; flex-wrap: wrap-reverse; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; height: 100vh; }
 
@@ -81,13 +84,13 @@
 
 .container .project-container .meta-info a, .container .project-container .meta-info span { padding-left: .5rem; padding-right: .5rem; text-decoration: none; }
 
-.container .project1 { background-image: url("../projects-snaps/kaisen-gotchi.jpg"); background-size: cover; }
+.container .project1 { background-image: url("../projects-snaps/kaisen-gotchi.jpg"); background-size: cover; background-position: center; }
 
-.container .project2 { background-image: url("../projects-snaps/goodeats.png"); background-size: cover; }
+.container .project2 { background-image: url("../projects-snaps/goodeats.png"); background-size: cover; background-position: center; }
 
-.container .project3 { background-image: url("../projects-snaps/the-wayfarer.jpg"); background-size: cover; }
+.container .project3 { background-image: url("../projects-snaps/the-wayfarer.jpg"); background-size: cover; background-position: center; }
 
-.container .project4 { background-image: url("../projects-snaps/fotonegative.jpg"); background-size: cover; }
+.container .project4 { background-image: url("../projects-snaps/fotonegative.jpg"); background-size: cover; background-position: center; }
 
 .container .project1:hover { background-image: url("../projects-snaps/kaisen-gotchi-gif.gif"); background-size: cover; background-position: center; }
 
@@ -104,6 +107,9 @@
 .container .project4:hover { background-image: url("../projects-snaps/fotonegative-gif.gif"); background-size: cover; background-position: center; }
 
 .container .project4:hover .meta-info { top: 40%; }
+
+@media screen and (max-width: 480px) { .container .project-container .meta-info { height: 100%; }
+  .container .project1:hover .meta-info, .container .project2:hover .meta-info, .container .project3:hover .meta-info, .container .project4:hover .meta-info { padding-top: 3rem; top: 0%; } }
 
 * { -webkit-box-sizing: border-box; box-sizing: border-box; }
 

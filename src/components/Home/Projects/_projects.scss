@@ -33,18 +33,22 @@
   .project1{
     background-image: url("../projects-snaps/kaisen-gotchi.jpg");
     background-size: cover;
+    background-position: center;
   }
   .project2{
     background-image: url("../projects-snaps/goodeats.png");
     background-size: cover;
+    background-position: center;
   }
   .project3{
     background-image: url("../projects-snaps/the-wayfarer.jpg");
     background-size: cover;
+    background-position: center;
   }
   .project4{
     background-image: url("../projects-snaps/fotonegative.jpg");
     background-size: cover;
+    background-position: center;
   }
 
   .project1:hover{
@@ -77,6 +81,23 @@
     background-position: center;
     .meta-info{
       top:40%;
+    }
+  }
+}
+
+@media screen and (max-width:480px) {
+  .container{
+    .project-container{
+
+      .meta-info{
+        height: 100%;
+      }
+    }
+    .project1:hover, .project2:hover, .project3:hover, .project4:hover {
+      .meta-info{
+        padding-top: 3rem;
+        top:0%;
+      }
     }
   }
 }

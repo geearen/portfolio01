@@ -13,7 +13,7 @@ export const ProjectData = [
     className: "project2",
     title: "Goodeats",
     description:
-      "Goodeats is a recipe website where user get to share their recipes. ",
+      "Goodeats is a recipe website where user get to share their recipes.",
     deployed: "https://goodeats-allen-nick.herokuapp.com/",
     github: "https://github.com/geearen/Goodeats",
   },
