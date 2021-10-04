@@ -10,13 +10,14 @@ function Home(){
   return (
     <>
       <Nav />
-      <div className="home" id="home">
+      <div className="home">
         <div className="about-me">
           <About />
         </div>
 
-        <hr />
-        <div className="projects" id="projects">
+        <hr id="projects" />
+
+        <div className="projects">
           <h1>Projects</h1>
           <section
             className="projects-section uk-child-width-1-2@s uk-child-width-1-2@m"
@@ -26,16 +27,18 @@ function Home(){
           </section>
         </div>
 
-        <hr />
-        <div className="tech-stack" id="tech-stack">
+        <hr id="tech-stack" />
+
+        <div className="tech-stack">
           <h1>Tech Stack</h1>
           <section className="tech-stack-section">
             <Stacks />
           </section>
         </div>
 
-        <hr />
-        <div className="contact-info" id="contact">
+        <hr id="contact" />
+        
+        <div className="contact-info">
           <Contact />
         </div>
       </div>

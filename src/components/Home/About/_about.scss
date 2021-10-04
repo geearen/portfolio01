@@ -20,6 +20,8 @@
     box-shadow: 5px 5px 0px 5px $light-deep-space;
     overflow: hidden;
     transition:2s;
+    -webkit-transition: 2s;
+    -moz-transition: 2s;
   
     img{
     width: 500px;
@@ -30,7 +32,8 @@
   }
   .about-portrait:hover{
     transform: rotateY(180deg);
-
+    -webkit-transform: translateY(180deg);
+    -moz-transform: translateY(180deg);
   }
   .about-text{
     display: flex;

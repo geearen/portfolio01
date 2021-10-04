@@ -10,11 +10,11 @@ export default function About() {
             alt="portfolio portrait"
           />
         </div>
+      <div id="about-me"></div>
       </div>
-
       <div className="container">
         <div className="about-text">
-          <div className="heading-text" id="about-me">
+          <div className="heading-text">
             <h1>Hi, I'm Allen Gonzales 👋</h1>
             <p>
               {" "}
