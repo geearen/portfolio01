@@ -15,7 +15,7 @@ function Home(){
           <About />
         </div>
 
-        <hr id="projects" />
+        <hr className="line" id="projects" />
 
         <div className="projects">
           <h1>Projects</h1>
@@ -27,7 +27,7 @@ function Home(){
           </section>
         </div>
 
-        <hr id="tech-stack" />
+        <hr className="line" id="tech-stack" />
 
         <div className="tech-stack">
           <h1>Tech Stack</h1>
@@ -36,9 +36,9 @@ function Home(){
           </section>
         </div>
 
-        <hr id="contact" />
-        
+        <hr className="line" id="contact" />
         <div className="contact-info">
+          <h1> Contact Info: </h1>
           <Contact />
         </div>
       </div>

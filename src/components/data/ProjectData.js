@@ -34,7 +34,7 @@ export const ProjectData = [
     className: "project4",
     title: "FotoNegative",
     description:
-      "FotoNegative is a full stack application targeting on photographers and hobbyists, where it allows users to views different types of camera from film to digital and view sample images from that camera. Inspired by KenRockwell.com and Instagram",
+      "FotoNegative is a full stack application targeting on photographers and hobbyists, where it allows users to views different types of camera from film to digital. Inspired by KenRockwell.com and Instagram",
     tech:"Node.js, Express.js, MongoDB, SASS, UIkit, AWS S3 and Unsplash API",
     deployed: "https://fotonegative.herokuapp.com/",
     github: "https://github.com/geearen/FotoNegative",
