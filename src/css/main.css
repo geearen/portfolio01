@@ -95,6 +95,7 @@
 @media screen and (max-width: 480px) { .about .container { margin: 1rem; padding-left: 0px; }
   .about .about-portrait { -ms-grid-column-align: center; justify-self: center; padding: 0.5rem; border-radius: 4px; }
   .about .about-portrait img { border-radius: 4px; }
+  .about .about-portrait:hover { transform: rotateY(0deg); -webkit-transform: translateY(0deg); -moz-transform: translateY(0deg); }
   .about .about-text { width: 99%; }
   .about .about-text h1 { font-size: 25px; text-align: center; }
   .about .table { width: 90%; }
