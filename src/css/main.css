@@ -90,14 +90,17 @@
 
 .about .about-text h1 { letter-spacing: 2px; text-align: center; }
 
+.about .about-text p { font-weight: 200; font-size: 30px; }
+
 .about .table { text-align: center; background: rgba(239, 243, 246, 0.3); -webkit-box-shadow: 5px 5px 0px 3px #5C9499; box-shadow: 5px 5px 0px 3px #5C9499; border-radius: 10px; padding: 2rem; margin: 1rem; }
 
 @media screen and (max-width: 480px) { .about .container { margin: 1rem; padding-left: 0px; }
   .about .about-portrait { -ms-grid-column-align: center; justify-self: center; padding: 0.5rem; border-radius: 4px; }
   .about .about-portrait img { border-radius: 4px; }
   .about .about-portrait:hover { transform: rotateY(0deg); -webkit-transform: translateY(0deg); -moz-transform: translateY(0deg); }
-  .about .about-text { width: 99%; }
+  .about .about-text { width: 99%; padding: 1.5rem; margin: 1.5rem 0.5rem; }
   .about .about-text h1 { font-size: 25px; text-align: center; }
+  .about .about-text p { font-size: 15px; }
   .about .table { width: 90%; }
   .about .table h1 { font-size: 20px; }
   .about .table .table-container { display: block; width: 100%; overflow-x: auto; } }

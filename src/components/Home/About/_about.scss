@@ -49,6 +49,10 @@
       letter-spacing: 2px;
       text-align: center;
     }
+    p{
+      font-weight:200;
+      font-size: 30px;
+    }
   }
   .table{
     text-align: center;
@@ -83,9 +87,14 @@
   }
     .about-text{
       width: 99%;
+      padding:1.5rem;
+      margin: 1.5rem 0.5rem;
       h1{
         font-size: 25px;
         text-align: center;
+      }
+      p{
+        font-size: 15px;
       }
     }
     .table{
