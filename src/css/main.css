@@ -123,9 +123,9 @@
 
 @media screen and (max-width: 480px) { .tech-container .tech-stack-img { padding: 2rem 2rem; width: auto; height: 70px; } }
 
-.container .project-container { border-radius: 10px; height: 400px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; overflow: hidden; -webkit-box-shadow: 3px 3px 0px 1px #5C9499; box-shadow: 3px 3px 0px 1px #5C9499; position: relative; }
+.container .project-container { border-radius: 10px; height: 500px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; overflow: hidden; -webkit-box-shadow: 3px 3px 0px 1px #5C9499; box-shadow: 3px 3px 0px 1px #5C9499; position: relative; }
 
-.container .project-container .meta-info { background-color: rgba(43, 61, 74, 0.8); -ms-flex-item-align: end; align-self: flex-end; height: 60%; width: 100%; text-align: center; padding: 1rem; position: absolute; top: 100%; -webkit-transition: .5s; transition: .5s; }
+.container .project-container .meta-info { background-color: rgba(43, 61, 74, 0.8); -ms-flex-item-align: end; align-self: flex-end; height: 70%; width: 100%; text-align: center; padding: 1rem; position: absolute; top: 100%; -webkit-transition: .5s; transition: .5s; }
 
 .container .project-container .meta-info a, .container .project-container .meta-info span { padding-left: .5rem; padding-right: .5rem; text-decoration: none; }
 
