@@ -14,8 +14,9 @@ function Nav(){
         </div>
       </nav>
 
-      <div id="menu" data-uk-offcanvas="overlay: true; mode: push;">
+      <div id="menu" data-uk-offcanvas="overlay: false; mode: push;">
         <div class="uk-offcanvas-bar uk-flex uk-flex-column">
+          <button class="uk-offcanvas-close" type="button" data-uk-close></button>
           <ul className="uk-nav uk-nav-center uk-margin-auto-vertical">
             <li className="uk-navbar-item">
               <NavLink exact to="/">
