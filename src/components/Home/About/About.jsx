@@ -12,13 +12,13 @@ export default function About() {
         </div>
         <div id="about-me"></div>
       </div>
-      <div className="container">
+      <div className="container bottom">
         <div className="about-text">
           <div className="heading-text">
             <h1>About me! 👋</h1>
             <p>
               {" "}
-              I’m a former Avionics Technician, now a Software Engineer with
+              Hi! I'm Allen Gonzales and I'm a former Avionics Technician, now a Software Engineer with
               skills in critical thinking, troubleshooting, and a keen eye for
               aesthetics. I value adaptability, honesty, good communication
               skills and a good relationship within peers. I also thrive
@@ -26,9 +26,8 @@ export default function About() {
             </p>
           </div>
         </div>
-      </div>
 
-      <div className="container">
+      
         <div className="table">
           <h1>My Tool Box</h1>
           <table className="table-container uk-table uk-table-divider">

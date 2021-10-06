@@ -7,6 +7,22 @@
     color:$background-dark;
   }
 }
+.uk-navbar-center{
+  a{
+    text-decoration: none;
+  }
+  h3{
+    letter-spacing: 3px;
+    padding: 0.8rem;
+    margin: .2rem;
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 0px $background-dark;
+      &:hover{
+      color:$light-independence;
+      text-shadow: 0px 1px 0px $font-color;
+    }
+  }
+}
 .uk-nav{
   li>a{
     font-family: $handwriting-font;

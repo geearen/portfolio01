@@ -1,5 +1,35 @@
 export const ProjectData = [
   {
+    key: 3,
+    className: "project4",
+    title: "FotoNegative",
+    description:
+    "FotoNegative is a full stack application targeting on photographers and hobbyists, where it allows users to views different types of camera from film to digital. Inspired by KenRockwell.com and Instagram",
+    tech:"Node.js, Express.js, MongoDB, SASS, UIkit, AWS S3 and Unsplash API",
+    deployed: "https://fotonegative.herokuapp.com/",
+    github: "https://github.com/geearen/FotoNegative",
+  },
+  {
+    key: 2,
+    className: "project3",
+    title: "The Wayfarer",
+    description:
+    "Wayfarer is a travel app aimed specifically at enabling users to post nightlife stories and tips for the cities of their choice.",
+    tech:"Python, Django, PostgreSQL, CSS, jQuery and Skeleton",
+    deployed: "https://the-number-one-wayfarer.herokuapp.com/",
+    github: "https://github.com/geearen/the-wayfarer",
+  },
+  {
+    key: 1,
+    className: "project2",
+    title: "Goodeats",
+    description:
+    "Goodeats is a recipe website where user get to share their recipes.",
+    tech:"Node.js, Express.js, MongoDB, SASS, Semantic UI and jQuery",
+    deployed: "https://goodeats-allen-nick.herokuapp.com/",
+    github: "https://github.com/geearen/Goodeats",
+  },
+  {
     key: 0,
     className: "project1",
     title: "Jujutsu Kaisen-Gotchi",
@@ -8,35 +38,5 @@ export const ProjectData = [
     tech:"HTML, CSS, JavaScript, Animate.CSS, and NES CSS Framework",
     deployed: "https://geearen.github.io/Jujutsu-Kaisen-Gotchi/",
     github: "https://github.com/geearen/Jujutsu-Kaisen-Gotchi",
-  },
-  {
-    key: 1,
-    className: "project2",
-    title: "Goodeats",
-    description:
-      "Goodeats is a recipe website where user get to share their recipes.",
-    tech:"Node.js, Express.js, MongoDB, SASS, Semantic UI and jQuery",
-    deployed: "https://goodeats-allen-nick.herokuapp.com/",
-    github: "https://github.com/geearen/Goodeats",
-  },
-  {
-    key: 2,
-    className: "project3",
-    title: "The Wayfarer",
-    description:
-      "Wayfarer is a travel app aimed specifically at enabling users to post nightlife stories and tips for the cities of their choice.",
-    tech:"Python, Django, PostgreSQL, CSS, jQuery and Skeleton",
-    deployed: "https://the-number-one-wayfarer.herokuapp.com/",
-    github: "https://github.com/geearen/the-wayfarer",
-  },
-  {
-    key: 3,
-    className: "project4",
-    title: "FotoNegative",
-    description:
-      "FotoNegative is a full stack application targeting on photographers and hobbyists, where it allows users to views different types of camera from film to digital. Inspired by KenRockwell.com and Instagram",
-    tech:"Node.js, Express.js, MongoDB, SASS, UIkit, AWS S3 and Unsplash API",
-    deployed: "https://fotonegative.herokuapp.com/",
-    github: "https://github.com/geearen/FotoNegative",
   },
 ];
