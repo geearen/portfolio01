@@ -18,16 +18,21 @@ export default function About() {
             <h1>About me! 👋</h1>
             <p>
               {" "}
-              Hi! I'm Allen Gonzales and I'm a former Avionics Technician, now a Software Engineer with
-              skills in critical thinking, troubleshooting, and a keen eye for
-              aesthetics. I value adaptability, honesty, good communication
-              skills and a good relationship within peers. I also thrive
-              learning new skills and have a well-developed growth mindset.
+              Hi! I'm Allen Gonzales and I'm a former Avionics Technician, now a
+              Software Engineer with skills in critical thinking,
+              troubleshooting, and a keen eye for aesthetics. I value
+              adaptability, honesty, good communication skills and a good
+              relationship within peers. I also thrive learning new skills and
+              have a well-developed growth mindset.
+              <br />
+              <br />
+              When I'm not coding, you can find me editing my photos and
+              updating my photography website or hanging out with my friends
+              playing video games or a sunday cookout.
             </p>
           </div>
         </div>
 
-      
         <div className="table">
           <h1>My Tool Box</h1>
           <table className="table-container uk-table uk-table-divider">

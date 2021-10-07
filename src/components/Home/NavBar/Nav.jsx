@@ -19,7 +19,7 @@ function Nav(){
         </div>
       </nav>
 
-      <div id="menu" data-uk-offcanvas="overlay: false; mode: push;">
+      <div id="menu" data-uk-offcanvas="overlay: false; mode: slide;">
         <div class="uk-offcanvas-bar uk-flex uk-flex-column">
           <button
             class="uk-offcanvas-close"
