@@ -38,10 +38,10 @@
 .splash .right-section::after { content: ""; position: absolute; z-index: -1; bottom: -32px; right: 50%; width: 60px; height: 30px; background: #2B3D4A; border-bottom-right-radius: 45px 45px; -webkit-transform: translate(-30px, -2px); transform: translate(-30px, -2px); }
 
 @-webkit-keyframes typing { from { width: 0; }
-  to { width: 60%; } }
+  to { width: 65%; } }
 
 @keyframes typing { from { width: 0; }
-  to { width: 60%; } }
+  to { width: 65%; } }
 
 @-webkit-keyframes blink-caret { from, to { border-color: transparent; }
   50% { border-color: #5C9499; } }
@@ -60,9 +60,9 @@
   .splash .right-section::after { width: 60px; height: 30px; right: 42%; bottom: -30px; }
   .splash .right-section::before { height: 30px; right: 42%; bottom: -28px; }
   @-webkit-keyframes typing { from { width: 0; }
-    to { width: 90%; } }
+    to { width: 93%; } }
   @keyframes typing { from { width: 0; }
-    to { width: 90%; } } }
+    to { width: 93%; } } }
 
 .navbar-container, .uk-offcanvas-bar { background-color: rgba(101, 119, 164, 0.5); }
 

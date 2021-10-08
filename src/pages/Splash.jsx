@@ -14,7 +14,7 @@ export default function Splash() {
           Hi, I'm Allen Gonzales 👋
           <br /> Software Engineer & I love coffee ☕
         </h1>
-        <a href="/home"> ~ yarn create-react-app my-portfolio </a>
+        <a href="/home"> ~ yarn create-react-app my-portfolio &#8626; </a>
       </div>
     </div>
   );
