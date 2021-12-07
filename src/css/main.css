@@ -151,6 +151,8 @@
 
 .container .project4 { background-image: url("../projects-snaps/fotonegative.jpg"); background-size: cover; background-position: center; }
 
+.container .project5 { background-image: url("../projects-snaps/outlet.png"); background-size: cover; background-position: center; }
+
 .container .project1:hover { background-image: url("../projects-snaps/kaisen-gotchi-gif.gif"); background-size: cover; background-position: center; }
 
 .container .project1:hover .meta-info { top: 40%; }
@@ -166,6 +168,10 @@
 .container .project4:hover { background-image: url("../projects-snaps/fotonegative-gif.gif"); background-size: cover; background-position: center; }
 
 .container .project4:hover .meta-info { top: 40%; }
+
+.container .project5:hover { background-image: url("https://res.cloudinary.com/dsxis0hux/image/upload/v1637789547/pics/25d6a24be92194874de799803d371188_embamn.gif"); background-size: cover; background-position: center; }
+
+.container .project5:hover .meta-info { top: 40%; }
 
 @media screen and (max-width: 480px) { .container .project-container .meta-info { height: 100%; }
   .container .project1:hover .meta-info, .container .project2:hover .meta-info, .container .project3:hover .meta-info, .container .project4:hover .meta-info { padding-top: 2rem; top: 0%; } }
