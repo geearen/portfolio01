@@ -38,7 +38,6 @@ function Home(){
 
         <hr className="line" id="contact" />
         <div className="contact-info">
-          <h1> Contact Info: </h1>
           <Contact />
         </div>
       </div>
