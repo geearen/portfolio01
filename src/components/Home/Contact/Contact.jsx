@@ -1,4 +1,5 @@
 import React from "react";
+import * as FaIcons from "react-icons/fa";
 
 export default function Contact() {
   return (
@@ -12,7 +13,7 @@ export default function Contact() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <span uk-icon="icon: mail; ratio:3"></span>
+              <FaIcons.FaEnvelope />
               allengonzales018@gmail.com
             </a>
           </li>
@@ -22,7 +23,8 @@ export default function Contact() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <span uk-icon="icon: linkedin; ratio:3"></span>/in/allen-gee
+              <FaIcons.FaLinkedinIn />
+              /in/allen-gee
             </a>
           </li>
           <li>
@@ -31,7 +33,8 @@ export default function Contact() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <span uk-icon="icon: github; ratio:3"></span>geearen
+              <FaIcons.FaGithubAlt />
+              geearen
             </a>
           </li>
           <li>
@@ -40,7 +43,8 @@ export default function Contact() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <span uk-icon="icon: instagram; ratio:3"></span>geearen.film
+              <FaIcons.FaInstagram />
+              geearen.film
             </a>
           </li>
           <li>
@@ -49,7 +53,8 @@ export default function Contact() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <span uk-icon="icon: file-text; ratio:3"></span>Resume
+              <FaIcons.FaInstagram />
+              Resume
             </a>
           </li>
         </ul>
