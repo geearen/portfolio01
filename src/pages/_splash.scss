@@ -1,3 +1,8 @@
+.background-grad-splash{
+  background:linear-gradient(to bottom right, $fern-green, $hunter-green);
+  background-size: cover;
+  height: 100%;
+}
 .splash{
   display: flex;
   justify-content: center;
@@ -7,6 +12,8 @@
   .left-section{
     padding:0.8rem;
     margin:1rem;
+    animation: breathing 4s ease-out infinite normal;
+    -webkit-animation: breathing 4s ease-out infinite normal;
   }
   .right-section{
     position:relative;
@@ -25,7 +32,7 @@
     border-bottom-right-radius:220px 120px;
     border-bottom-left-radius:220px 120px;
     border-radius:220px /120px;
-    box-shadow: 3px -5px 0px 1px $light-deep-space;
+    box-shadow: 3px -5px 0px 1px $timberwolf;
 
     h1{
     color: $background-dark;
@@ -33,44 +40,47 @@
     a{
       font-family: $typing-font;
       text-decoration: none;
-      color: $cyber-grape;
+      color: $hookers-green;
       overflow: hidden;
-      border-right: .15em solid $light-deep-space;
+      border-right: .15em solid $brunwick-green;
       white-space: nowrap;
       margin: 0 auto;
       letter-spacing: .10em;
       animation: typing 3.5s steps(30, end), blink-caret .5s step-end infinite;
     }
     a:hover{
-      text-shadow: 1px 1px 0px $light-independence;
+      text-shadow: 1px 1px 0px $brunwick-green;
     }
   }
-  .right-section::before{
-    content:"";
-    position:absolute;
-    z-index:-1;
-    bottom:-30px;
-    right:50%;
-    height:30px;
-    border-right:60px solid $font-color;
-    background: $font-color;
-    transform:translate(0, -2px);
-    border-bottom-right-radius:80px 50px;
-    transform:translate(0, -2px);
+  
+  // .right-section::before{
+  //   display:none;
+  //   content:"";
+  //   position:absolute;
+  //   z-index:-1;
+  //   bottom:-30px;
+  //   right:50%;
+  //   height:30px;
+  //   border-right:60px solid $font-color;
+  //   background: $font-color;
+  //   transform:translate(0, -2px);
+  //   border-bottom-right-radius:80px 50px;
+  //   transform:translate(0, -2px);
 
-  }
-  .right-section::after{
-    content:"";
-    position:absolute;
-    z-index:-1;
-    bottom:-32px;
-    right:50%;
-    width:60px;
-    height:30px;
-    background: #2B3D4A;
-    border-bottom-right-radius:45px 45px;
-    transform:translate(-30px, -2px);
-  }
+  // }
+  // .right-section::after{
+  //   display:none;
+  //   content:"";
+  //   position:absolute;
+  //   z-index:-1;
+  //   bottom:-32px;
+  //   right:50%;
+  //   width:60px;
+  //   height:30px;
+  //   background: linear-gradient(90deg, rgba(88,129,87,1) 13%, rgba(58,90,64,1) 96%);
+  //   border-bottom-right-radius:45px 45px;
+  //   transform:translate(-30px, -2px);
+  // }
 }
 
 @keyframes typing {
@@ -80,8 +90,56 @@
 
 @keyframes blink-caret {
   from, to {border-color: transparent}
-  50% { border-color: $light-deep-space;}
+  50% { border-color: $brunwick-green;}
 }
+@-webkit-keyframes breathing {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  25% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+  75% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes breathing {
+  0% {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+  25% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+
+  75% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+
+  100% {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+
 @media screen and (max-width: 480px) {
   .splash{
     height: 80vh;
@@ -89,6 +147,10 @@
 }
 
 @media screen and (max-width:480px){
+  .background-grad-splash{
+    height:100vh;
+    padding-top: 50px;
+  }
   .splash{
     flex-direction: column-reverse;
     .left-section{
@@ -115,18 +177,17 @@
 
       }
     }
-    .right-section::after{
-      width:60px;
-      height:30px;
-      right: 42%;
-      bottom:-30px;
-    }
-    .right-section::before{
-      height:30px;
-      right:42%;
-      bottom:-28px;
-
-    }
+    // .right-section::after{
+    //   width:60px;
+    //   height:30px;
+    //   right: 42%;
+    //   bottom:-30px;
+    // }
+    // .right-section::before{
+    //   height:30px;
+    //   right:42%;
+    //   bottom:-28px;
+    // }
   }
   @keyframes typing {
     from{ width: 0 }

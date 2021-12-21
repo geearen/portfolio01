@@ -23,21 +23,19 @@
   .home .projects { margin: 1rem; padding: .5rem; }
   .home .tech-stack { margin: 1rem 2rem; padding: 0rem; } }
 
+.background-grad-splash { background: -webkit-gradient(linear, left top, right bottom, from(#588157), to(#3A5A40)); background: linear-gradient(to bottom right, #588157, #3A5A40); background-size: cover; height: 100%; }
+
 .splash { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; height: 100vh; }
 
-.splash .left-section { padding: 0.8rem; margin: 1rem; }
+.splash .left-section { padding: 0.8rem; margin: 1rem; animation: breathing 4s ease-out infinite normal; -webkit-animation: breathing 4s ease-out infinite normal; }
 
-.splash .right-section { position: relative; z-index: 1; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; width: 720px; -webkit-box-align: center; -ms-flex-align: center; align-items: center; padding: 4rem 1.5rem; margin: 1rem 50px 50px; background: #EFF3F6; text-align: center; border-top-left-radius: 220px 120px; border-top-right-radius: 220px 120px; border-bottom-right-radius: 220px 120px; border-bottom-left-radius: 220px 120px; border-radius: 220px /120px; -webkit-box-shadow: 3px -5px 0px 1px #5C9499; box-shadow: 3px -5px 0px 1px #5C9499; }
+.splash .right-section { position: relative; z-index: 1; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; width: 720px; -webkit-box-align: center; -ms-flex-align: center; align-items: center; padding: 4rem 1.5rem; margin: 1rem 50px 50px; background: #EFF3F6; text-align: center; border-top-left-radius: 220px 120px; border-top-right-radius: 220px 120px; border-bottom-right-radius: 220px 120px; border-bottom-left-radius: 220px 120px; border-radius: 220px /120px; -webkit-box-shadow: 3px -5px 0px 1px #DAD7CD; box-shadow: 3px -5px 0px 1px #DAD7CD; }
 
 .splash .right-section h1 { color: #2B3D4A; }
 
-.splash .right-section a { font-family: "Space Mono", monospace; text-decoration: none; color: #3F3C68; overflow: hidden; border-right: 0.15em solid #5C9499; white-space: nowrap; margin: 0 auto; letter-spacing: .10em; -webkit-animation: typing 3.5s steps(30, end), blink-caret 0.5s step-end infinite; animation: typing 3.5s steps(30, end), blink-caret 0.5s step-end infinite; }
+.splash .right-section a { font-family: "Space Mono", monospace; text-decoration: none; color: #3C685C; overflow: hidden; border-right: 0.15em solid #344E41; white-space: nowrap; margin: 0 auto; letter-spacing: .10em; -webkit-animation: typing 3.5s steps(30, end), blink-caret 0.5s step-end infinite; animation: typing 3.5s steps(30, end), blink-caret 0.5s step-end infinite; }
 
-.splash .right-section a:hover { text-shadow: 1px 1px 0px #6577A4; }
-
-.splash .right-section::before { content: ""; position: absolute; z-index: -1; bottom: -30px; right: 50%; height: 30px; border-right: 60px solid #EFF3F6; background: #EFF3F6; -webkit-transform: translate(0, -2px); transform: translate(0, -2px); border-bottom-right-radius: 80px 50px; transform: translate(0, -2px); }
-
-.splash .right-section::after { content: ""; position: absolute; z-index: -1; bottom: -32px; right: 50%; width: 60px; height: 30px; background: #2B3D4A; border-bottom-right-radius: 45px 45px; -webkit-transform: translate(-30px, -2px); transform: translate(-30px, -2px); }
+.splash .right-section a:hover { text-shadow: 1px 1px 0px #344E41; }
 
 @-webkit-keyframes typing { from { width: 0; }
   to { width: 65%; } }
@@ -46,21 +44,38 @@
   to { width: 65%; } }
 
 @-webkit-keyframes blink-caret { from, to { border-color: transparent; }
-  50% { border-color: #5C9499; } }
+  50% { border-color: #344E41; } }
 
 @keyframes blink-caret { from, to { border-color: transparent; }
-  50% { border-color: #5C9499; } }
+  50% { border-color: #344E41; } }
+
+@-webkit-keyframes breathing { 0% { -webkit-transform: scale(1);
+    transform: scale(1); }
+  25% { -webkit-transform: scale(1.1);
+    transform: scale(1.1); }
+  75% { -webkit-transform: scale(1.1);
+    transform: scale(1.1); }
+  100% { -webkit-transform: scale(1);
+    transform: scale(1); } }
+
+@keyframes breathing { 0% { -webkit-transform: scale(1.1);
+    transform: scale(1.1); }
+  25% { -webkit-transform: scale(1);
+    transform: scale(1); }
+  75% { -webkit-transform: scale(1);
+    transform: scale(1); }
+  100% { -webkit-transform: scale(1.1);
+    transform: scale(1.1); } }
 
 @media screen and (max-width: 480px) { .splash { height: 80vh; } }
 
-@media screen and (max-width: 480px) { .splash { -webkit-box-orient: vertical; -webkit-box-direction: reverse; -ms-flex-direction: column-reverse; flex-direction: column-reverse; }
+@media screen and (max-width: 480px) { .background-grad-splash { height: 100vh; padding-top: 50px; }
+  .splash { -webkit-box-orient: vertical; -webkit-box-direction: reverse; -ms-flex-direction: column-reverse; flex-direction: column-reverse; }
   .splash .left-section { width: 90%; -ms-flex-item-align: end; align-self: flex-end; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
   .splash .left-section img { width: 200px; }
   .splash .right-section { width: 90%; }
   .splash .right-section h1 { font-size: 20px; letter-spacing: 2px; }
   .splash .right-section a { font-size: 12px; letter-spacing: 0px; -webkit-animation: typing 3.5s steps(30, end), blink-caret 0.5s step-end infinite; animation: typing 3.5s steps(30, end), blink-caret 0.5s step-end infinite; }
-  .splash .right-section::after { width: 60px; height: 30px; right: 42%; bottom: -30px; }
-  .splash .right-section::before { height: 30px; right: 42%; bottom: -28px; }
   @-webkit-keyframes typing { from { width: 0; }
     to { width: 93%; } }
   @keyframes typing { from { width: 0; }
