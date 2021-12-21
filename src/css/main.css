@@ -1,15 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Marcellus+SC&family=Montserrat:wght@100;200;300;400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
+.background-grad { background: #588157; background: -webkit-gradient(linear, left top, left bottom, from(#588157), color-stop(50%, #3a5a40), to(#344e41)); background: linear-gradient(180deg, #588157 0%, #3a5a40 50%, #344e41 100%); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#588157",endColorstr="#344e41",GradientType=1); }
+
 .home { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; width: 70%; margin-left: auto; margin-right: auto; }
 
 .home .line { margin: 20px auto; width: 95%; border: 0; height: 1px; background-image: -webkit-gradient(linear, left top, right top, from(#2B3D4A), color-stop(#EFF3F6), to(#2B3D4A)); background-image: linear-gradient(to right, #2B3D4A, #EFF3F6, #2B3D4A); }
 
-.home .tech-stack { text-align: center; font-family: "Shadows Into Light Two", cursive; margin: 2rem 3rem; padding: 1rem; }
+.home .tech-stack { text-align: center; font-family: "Shadows Into Light Two", cursive; background-color: #DAD7CD; border-radius: 10px; margin: 2rem 3rem; padding: 1rem; }
 
 .home .tech-stack h1 { margin: 2rem 0rem; }
 
-.home .tech-stack .tech-stack-section { background-color: rgba(239, 243, 246, 0.2); -webkit-box-shadow: 5px 5px 0px 2px #5C9499; box-shadow: 5px 5px 0px 2px #5C9499; border-radius: 10px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -ms-flex-wrap: wrap; flex-wrap: wrap; width: 100%; }
+.home .tech-stack .tech-stack-section { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -ms-flex-wrap: wrap; flex-wrap: wrap; width: 100%; }
 
 .home .projects { text-align: center; margin: 2rem 3rem; padding: 1rem; }
 

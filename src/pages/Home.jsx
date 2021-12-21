@@ -8,7 +8,7 @@ import Contact from '../components/Home/Contact/Contact';
 
 function Home(){
   return (
-    <>
+    <div className='background-grad'>
       <Nav />
       <div className="home">
         <div className="about-me">
@@ -42,7 +42,7 @@ function Home(){
         </div>
       </div>
       <Footer />
-    </>
+    </div>
   );
 }
 

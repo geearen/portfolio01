@@ -7,7 +7,7 @@ function App() {
   return (
     <main>
       <Routes/>
-      <Background />
+      {/* <Background /> */}
     </main>
   );
 }
