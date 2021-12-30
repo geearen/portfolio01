@@ -33,7 +33,7 @@ export default function About() {
           </div>
         </div>
 
-        <div className="table">
+        {/* <div className="table">
           <h1>My Tool Box</h1>
           <table className="table-container uk-table uk-table-divider">
             <thead>
@@ -84,7 +84,7 @@ export default function About() {
               </tr>
             </tbody>
           </table>
-        </div>
+        </div> */}
       </div>
     </section>
   );

@@ -51,7 +51,9 @@
     a:hover{
       text-shadow: 1px 1px 0px $brunwick-green;
     }
+
   }
+  
   
   // .right-section::before{
   //   display:none;
@@ -140,11 +142,6 @@
   }
 }
 
-@media screen and (max-width: 480px) {
-  .splash{
-    height: 80vh;
-  }
-}
 
 @media screen and (max-width:480px){
   .background-grad-splash{
@@ -153,6 +150,7 @@
   }
   .splash{
     flex-direction: column-reverse;
+    height: 80vh;
     .left-section{
       width: 90%;
       align-self: flex-end;

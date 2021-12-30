@@ -1,4 +1,10 @@
 .tech-container{
+  position: relative;
+  .tool-tip{
+    background-color: rgba(0,0,0, 0.5);
+    border-radius: 10px;
+  }
+
   .tech-stack-img{
     box-sizing: content-box;
     padding: 2rem 3rem;
