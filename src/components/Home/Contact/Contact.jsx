@@ -53,7 +53,7 @@ export default function Contact() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaIcons.FaInstagram />
+              <FaIcons.FaFileAlt />
               Resume
             </a>
           </li>

@@ -13,7 +13,7 @@
 
 .home .tech-stack .tech-stack-section { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -ms-flex-wrap: wrap; flex-wrap: wrap; width: 100%; }
 
-.home .projects { text-align: center; margin: 2rem 3rem; padding: 1rem; }
+.home .projects { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -ms-flex-align: center; align-items: center; text-align: center; margin: 2rem 3rem; padding: 1rem; }
 
 .home .projects h1 { margin: 2rem 0rem; }
 
@@ -159,21 +159,19 @@
 @media screen and (max-width: 480px) { .contact-section { padding: 1rem; margin: 1rem; }
   .contact-section a { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; font-size: 12px; } }
 
-.tech-container { position: relative; }
-
-.tech-container .tool-tip { background-color: rgba(0, 0, 0, 0.5); border-radius: 10px; }
-
 .tech-container .tech-stack-img { -webkit-box-sizing: content-box; box-sizing: content-box; padding: 2rem 3rem; width: auto; height: 80px; -webkit-transition: ease-in-out 250ms; transition: ease-in-out 250ms; }
 
 .tech-container .tech-stack-img:hover { -webkit-transform: translateY(-10px); transform: translateY(-10px); }
 
 @media screen and (max-width: 480px) { .tech-container .tech-stack-img { padding: 2rem 2rem; width: auto; height: 70px; } }
 
-.container .project-container { border-radius: 10px; height: 500px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; overflow: hidden; -webkit-box-shadow: 3px 3px 0px 1px #5C9499; box-shadow: 3px 3px 0px 1px #5C9499; position: relative; }
+.container { display: -ms-grid; display: grid; -ms-grid-columns: 50% 50%; grid-template-columns: 50% 50%; gap: 25px; width: 100%; }
 
-.container .project-container .meta-info { background-color: rgba(43, 61, 74, 0.8); -ms-flex-item-align: end; align-self: flex-end; height: 70%; width: 100%; text-align: center; padding: 1rem; position: absolute; top: 100%; -webkit-transition: .5s; transition: .5s; }
+.container .project-container { border-radius: 5px; height: 500px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; overflow: hidden; -webkit-box-shadow: 3px 4px 0px 1px #344E41; box-shadow: 3px 4px 0px 1px #344E41; position: relative; }
 
-.container .project-container .meta-info a, .container .project-container .meta-info span { padding-left: .5rem; padding-right: .5rem; text-decoration: none; }
+.container .project-container .meta-info { background-color: rgba(88, 129, 87, 0.8); -ms-flex-item-align: end; align-self: flex-end; height: 70%; width: 100%; text-align: center; padding: 1rem; position: absolute; top: 100%; -webkit-transition: .5s; transition: .5s; }
+
+.container .project-container .meta-info a { padding-left: .5rem; padding-right: .5rem; text-decoration: none; }
 
 .container .project1 { background-image: url("../projects-snaps/kaisen-gotchi.jpg"); background-size: cover; background-position: center; }
 
@@ -205,7 +203,8 @@
 
 .container .project5:hover .meta-info { top: 40%; }
 
-@media screen and (max-width: 480px) { .container .project-container .meta-info { height: 100%; }
+@media screen and (max-width: 480px) { .container { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; width: 80%; }
+  .container .project-container .meta-info { height: 100%; }
   .container .project1:hover .meta-info, .container .project2:hover .meta-info, .container .project3:hover .meta-info, .container .project4:hover .meta-info { padding-top: 2rem; top: 0%; } }
 
 * { -webkit-box-sizing: border-box; box-sizing: border-box; }

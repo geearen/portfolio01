@@ -8,7 +8,7 @@ import Contact from '../components/Home/Contact/Contact';
 
 function Home(){
   return (
-    <div className='background-grad'>
+    <div className="background-grad">
       <Nav />
       <div className="home">
         <div className="about-me">
@@ -19,10 +19,7 @@ function Home(){
 
         <div className="projects">
           <h1>Projects</h1>
-          <section
-            className="projects-section uk-child-width-1-2@s uk-child-width-1-2@m"
-            data-uk-grid
-          >
+          <section className="container">
             <Projects />
           </section>
         </div>

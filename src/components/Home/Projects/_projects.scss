@@ -1,16 +1,20 @@
 .container{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 25px;
+  width: 100%;
   .project-container{
-    border-radius: 10px;
+    border-radius: 5px;
     height: 500px;
     display: flex;
     justify-content: center;
     overflow: hidden;
-    box-shadow: 3px 3px 0px 1px $light-deep-space;
+    box-shadow: 3px 4px 0px 1px $brunwick-green;
     position: relative;
 
     
     .meta-info{
-      background-color: transparentize($background-dark,  0.2);
+      background-color: transparentize($fern-green,  0.2);
       align-self: flex-end;
       height: 70%;
       width: 100%;
@@ -20,7 +24,7 @@
       top:100%;
       transition: .5s;
 
-      a, span{
+      a{
         padding-left: .5rem;
         padding-right: .5rem;
         text-decoration: none;
@@ -100,6 +104,10 @@
 
 @media screen and (max-width:480px) {
   .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
     .project-container{
 
       .meta-info{
