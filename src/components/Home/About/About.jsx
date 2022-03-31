@@ -3,16 +3,13 @@ import React from 'react'
 export default function About() {
   return (
     <section className="about">
-      <div className="container">
-        <div className="about-portrait">
-          <img
-            src="https://res.cloudinary.com/dsxis0hux/image/upload/v1632869056/pics/IMG_6396_sdmp6q.jpg"
-            alt="portfolio portrait"
-          />
-        </div>
+      <div className="about-portrait">
+        <img
+          src="https://res.cloudinary.com/dsxis0hux/image/upload/v1632869056/pics/IMG_6396_sdmp6q.jpg"
+          alt="portfolio portrait"
+        />
         <div id="about-me"></div>
       </div>
-      <div className="container bottom">
         <div className="about-text">
           <div className="heading-text">
             <h1>About me! 👋</h1>
@@ -85,7 +82,6 @@ export default function About() {
             </tbody>
           </table>
         </div> */}
-      </div>
     </section>
   );
 }

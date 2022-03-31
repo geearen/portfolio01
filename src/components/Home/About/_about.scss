@@ -2,7 +2,7 @@
   margin: 2rem;
   margin-top: 0rem;
   padding: 10px;
-  .container{
+  .portrait{
     margin:2rem 5rem;
     display: flex;
     justify-content: center;
@@ -10,31 +10,18 @@
     flex-direction: column;
     
   }
-  .bottom{
-      background: transparentize($font-color, 0.7);
-      box-shadow: 5px 5px 0px 3px $light-deep-space;
-      border-radius: 10px;
-  }
   .about-portrait{
     background-color: $font-color;
     padding: 1rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: auto;
-    margin-right:auto;
-    border-radius: 50% 10% / 25%;
-    box-shadow: 5px 5px 0px 5px $light-deep-space;
+    box-shadow: 5px 5px 0px 5px $timberwolf;
     overflow: hidden;
     transition:2s;
     -webkit-transition: 2s;
     -moz-transition: 2s;
   
     img{
-    width: 500px;
+    width: 300px;
     height: auto;
-    border-radius: 50% 10% / 25%;
-    
     }
   }
   .about-portrait:hover{
@@ -47,7 +34,9 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    
+    background: transparentize($font-color, 0.7);
+    box-shadow: 5px 5px 0px 3px $light-deep-space;
+    border-radius: 5px;
     padding: 2rem;
     margin: 1rem;
     width: 100%;
