@@ -59,6 +59,11 @@
     background-size: cover;
     background-position: center;
   }
+  .project6{
+    background-image: url("../projects-snaps/animeselfcare.jpg");
+    background-size: cover;
+    background-position: center;
+  }
 
   .project1:hover{
     background-image: url("../projects-snaps/kaisen-gotchi-gif.gif");
@@ -100,6 +105,15 @@
       top:40%;
     }
   }
+
+  .project6:hover {
+    background-image: url("../projects-snaps/animeselfcare-gif.gif");
+    background-size: cover;
+    background-position: center;
+    .meta-info {
+      top: 40%;
+    }
+  }
 }
 
 @media screen and (max-width:480px) {
@@ -114,7 +128,7 @@
         height: 100%;
       }
     }
-    .project1:hover, .project2:hover, .project3:hover, .project4:hover {
+    .project1:hover, .project2:hover, .project3:hover, .project4:hover, .project5:hover,.project6:hover{
       .meta-info{
         padding-top: 2rem;
         top:0%;

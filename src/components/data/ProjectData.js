@@ -1,5 +1,15 @@
 export const ProjectData = [
   {
+    key: 5,
+    className: "project6",
+    title: "Anime Therapy",
+    description:
+      "AnimeSelfCare.org is your place for calm, focus and productivity using anime. Enjoy some relaxing anime tunes, download your favorite Anime Self Care Kit and create your perfect sound environment.",
+    tech: "React and Tailwind",
+    deployed: "https://demo.animetherapy.org/",
+    github: "none",
+  },
+  {
     key: 4,
     className: "project5",
     title: "Outlet",
@@ -7,7 +17,7 @@ export const ProjectData = [
       "Outlet is a responsive drawing app where you can create art of your own. Draw with pen and fun shapes, save to your computer, clear, and draw again!",
     tech: "React and SASS",
     deployed: "https://outlet.vercel.app//",
-    github: "https://github.com/geearen/Outlete",
+    github: "https://github.com/geearen/Outlet",
   },
   {
     key: 3,
