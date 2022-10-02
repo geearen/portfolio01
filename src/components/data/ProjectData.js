@@ -7,7 +7,7 @@ export const ProjectData = [
       "AnimeSelfCare.org is your place for calm, focus and productivity using anime. Enjoy some relaxing anime tunes, download your favorite Anime Self Care Kit and create your perfect sound environment.",
     tech: "React and Tailwind",
     deployed: "https://demo.animetherapy.org/",
-    github: "none",
+    github: "https://github.com/geearen/",
   },
   {
     key: 4,

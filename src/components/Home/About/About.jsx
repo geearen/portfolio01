@@ -5,32 +5,37 @@ export default function About() {
     <section className="about">
       <div className="about-portrait">
         <img
-          src="https://res.cloudinary.com/dsxis0hux/image/upload/v1632869056/pics/IMG_6396_sdmp6q.jpg"
+          src="https://res.cloudinary.com/dsxis0hux/image/upload/v1664750484/pics/20220817-DSCF1088_dwnrin.jpg"
           alt="portfolio portrait"
         />
         <div id="about-me"></div>
       </div>
-        <div className="about-text">
-          <div className="heading-text">
-            <h1>About me! 👋</h1>
-            <p>
-              {" "}
-              Hi! I'm Allen Gonzales and I'm a former Avionics Technician, now a
-              Software Engineer with skills in critical thinking,
-              troubleshooting, and a keen eye for aesthetics. I value
-              adaptability, honesty, good communication skills and a good
-              relationship within peers. I also thrive learning new skills and
-              have a well-developed growth mindset.
-              <br />
-              <br />
-              When I'm not coding, you can find me editing my photos and
-              updating my photography website or hanging out with my friends
-              playing video games or a sunday cookout.
-            </p>
-          </div>
+      <div className="about-text">
+        <div className="heading-text">
+          <h1>About me! 👋</h1>
+          <p>
+            {" "}
+            Hi! I'm Allen Gonzales, currently a Software Developer at
+            Rightpoint.
+            <br />
+            <br />
+            3 years of Avionics Technician experience. I gained transferable
+            skills for Software Development, such as problem solving, critical
+            thinking and troubleshooting. I'm not afraid to disassemble things
+            to gain insightful knowledge. I find excitement from learning new
+            skills and I enjoy sharing what I learn. I take pride and ownership
+            with everything I do. I’m not afraid to make mistakes and learn from
+            them.
+            <br />
+            <br />
+            When I'm not coding, you can find me editing my photos, hanging out
+            with my friends playing video games or watching cooking show on
+            youtube.
+          </p>
         </div>
+      </div>
 
-        {/* <div className="table">
+      {/* <div className="table">
           <h1>My Tool Box</h1>
           <table className="table-container uk-table uk-table-divider">
             <thead>

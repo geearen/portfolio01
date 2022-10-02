@@ -49,7 +49,7 @@ export default function Contact() {
           </li>
           <li>
             <a
-              href="https://docs.google.com/document/d/1hnsuayjRw5MaOO1UIc8amX6nlfqXxxqENCGFIaB7NF0/edit?usp=sharing"
+              href="https://drive.google.com/file/d/1b-kFWsZvchh70g9mY9h_WzdHdxc9ocqF/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >

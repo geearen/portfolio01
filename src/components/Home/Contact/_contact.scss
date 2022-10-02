@@ -6,8 +6,8 @@
   .contact-content{
     background-color: $fern-green;
     position:relative;
-    width: 650px;
-    height: 650px;
+    width: 550px;
+    height: 450px;
     transform-style: preserve-3d;
     display: flex;
     flex-direction: column;
@@ -32,6 +32,7 @@
   }
   li{
     padding-right: 10px;
+    margin: 1rem;
   }
   .contact-content, .contact-content::before, .contact-content::after{
     border-radius: 10px;
