@@ -1,15 +1,17 @@
 import React from 'react'
-import { Switch, Route, Redirect } from 'react-router-dom'
+import { Route, BrowserRouter, Routes } from 'react-router-dom'
 import Splash from '../pages/Splash';
 import Home from '../pages/Home';
 
-function Routes(){
+function RouterConfig(){
   return (
-    <Switch>
-      <Route exact path="/" component={Splash} />
-      <Route exact path="/home" component={Home} />
-    </Switch>
+    <BrowserRouter>
+      <Routes>
+        <Route exact path="/" element={<Splash/>} />
+        <Route exact path="/home" element={<Home/>} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
-export default Routes;
+export default RouterConfig;
