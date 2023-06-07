@@ -2,32 +2,28 @@
   margin: 2rem;
   margin-top: 0rem;
   padding: 10px;
-  .portrait{
-    margin:2rem 5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    
-  }
+  
   .about-portrait{
     background-color: $font-color;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    width: 400px;
     padding: 1rem;
-    box-shadow: 5px 5px 0px 5px $timberwolf;
+    box-shadow: 2px 2px 0px 2px $timberwolf;
     overflow: hidden;
-    transition:2s;
+    transition: 2s;
     -webkit-transition: 2s;
     -moz-transition: 2s;
-  
+    
     img{
-    width: 300px;
-    height: auto;
+    width: max-content;
     }
   }
   .about-portrait:hover{
-    transform: rotateY(180deg);
-    -webkit-transform: translateY(180deg);
-    -moz-transform: translateY(180deg);
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
   }
   .about-text{
     display: flex;
