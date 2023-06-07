@@ -7,8 +7,8 @@ function RouterConfig(){
   return (
     <BrowserRouter>
       <Routes>
-        <Route exact path="/" element={<Splash/>} />
-        <Route exact path="/home" element={<Home/>} />
+        {/* <Route exact path="/" element={<Splash/>} /> */}
+        <Route exact path="/" element={<Home/>} />
       </Routes>
     </BrowserRouter>
   );
