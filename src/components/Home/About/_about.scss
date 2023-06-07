@@ -1,24 +1,29 @@
-.about{
+.about-container{
   margin: 2rem;
   margin-top: 0rem;
   padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   
   .about-portrait{
     background-color: $font-color;
     border-radius: 3px;
     display: flex;
     justify-content: center;
-    width: 400px;
+    max-width: 400px;
+    max-height: 570px;
     padding: 1rem;
     box-shadow: 2px 2px 0px 2px $timberwolf;
     overflow: hidden;
     transition: 2s;
     -webkit-transition: 2s;
     -moz-transition: 2s;
+    margin-right: 5px;
     
-    img{
-    width: max-content;
-    }
+    // img{
+    // width: max-content;
+    // }
   }
   .about-portrait:hover{
     transform: scale(1.1);
@@ -35,7 +40,8 @@
     border-radius: 5px;
     padding: 2rem;
     margin: 1rem;
-    width: 100%;
+    width: 60%;
+
     h1{
       letter-spacing: 2px;
       text-align: center;

@@ -14,6 +14,9 @@ function Home(){
         <div className="about-me">
           <About />
         </div>
+        <div className="contact-info">
+          <Contact />
+        </div>
 
         <hr className="line" id="projects" />
 
@@ -34,9 +37,6 @@ function Home(){
         </div>
 
         <hr className="line" id="contact" />
-        <div className="contact-info">
-          <Contact />
-        </div>
       </div>
       <Footer />
     </div>

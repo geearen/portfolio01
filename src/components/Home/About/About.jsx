@@ -2,13 +2,12 @@ import React from 'react'
 
 export default function About() {
   return (
-    <section className="about">
+    <section className="about-container">
       <div className="about-portrait">
         <img
           src="https://res.cloudinary.com/dsxis0hux/image/upload/v1664750484/pics/20220817-DSCF1088_dwnrin.jpg"
           alt="portfolio portrait"
         />
-        <div id="about-me"></div>
       </div>
       <div className="about-text">
         <div className="heading-text">
