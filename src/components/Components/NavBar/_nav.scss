@@ -1,6 +1,30 @@
-.navbar-container, .uk-offcanvas-bar{
-  background-color: transparentize($light-independence, 0.5);
+.navbar {
+  background-color: transparentize($edgy-gold, 0.8);
+  padding: 0 0.5rem;
+
+  ul {
+    list-style: none;
+  }
+
+  a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: $cinder;
+    font-family: $typing-font;
+  }
+
+  .navbar-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0;
+  }
+  .navbar-item {
+    margin: 0.7rem;
+  }
 }
+
 .uk-navbar-toggle{
   color:$font-color;
   &:hover{

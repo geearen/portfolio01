@@ -1,7 +1,7 @@
+import PageContainer from "../components/Components/PageContainer/PageContainer";
+
 const Photo = () => {
-  return(
-    <div> Photo </div>
-  )
+  return <PageContainer children={<div> Photo </div>}></PageContainer>;
 }
 
 export default Photo;

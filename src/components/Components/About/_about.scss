@@ -1,6 +1,5 @@
 .about-container{
   margin: 2rem;
-  margin-top: 0rem;
   padding: 10px;
   display: flex;
   justify-content: center;
@@ -11,8 +10,6 @@
     border-radius: 3px;
     display: flex;
     justify-content: center;
-    max-width: 400px;
-    max-height: 570px;
     padding: 1rem;
     box-shadow: 2px 2px 0px 2px $timberwolf;
     overflow: hidden;
@@ -21,9 +18,9 @@
     -moz-transition: 2s;
     margin-right: 5px;
     
-    // img{
-    // width: max-content;
-    // }
+    img{
+    width: 300px;
+    }
   }
   .about-portrait:hover{
     transform: scale(1.1);
