@@ -1,10 +1,12 @@
 import Nav from "../NavBar/Nav";
 const PageContainer = ({ children }) => {
   return (
-    <div className="main-background">
+    <>
       <Nav />
-      {children}
-    </div>
+      <div className="page-container">
+        {children}
+      </div>
+    </>
   );
 };
 

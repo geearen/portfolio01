@@ -2,6 +2,8 @@
 @import "../_variables/fonts";
 @import "../pages/home";
 @import "../pages/splash";
+@import "../pages/project";
+@import "../pages/photo";
 @import "../components/Components/NavBar/nav";
 @import "../components/Components/About/about";
 @import "../components/Components/Contact/contact";
@@ -9,6 +11,7 @@
 @import "../components/Components/Projects/projects";
 @import "../components/Components/Footer/footer";
 @import "../components/Components/PageContainer/pagecontainer";
+
 
 *{
   box-sizing: border-box;
@@ -20,11 +23,11 @@ html{
 }
 body{
   color: $font-color;
-  background-color: $super-silver;
   font-family: $base-font;
+  background: $super-silver;
   letter-spacing: 1px;
   max-height: 100vh;
-  margin: 2rem 0.5rem 0 0.5rem;
+  margin: 15px 5px 1px 5px;
 }
 h1,h2,h3,h4,h5,h6{
   font-family: $header-font;

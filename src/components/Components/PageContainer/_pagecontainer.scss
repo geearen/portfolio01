@@ -1,5 +1,23 @@
-.main-background {
-  background: $super-silver;
-  margin: 0;
-  min-height: 100vh;
+.page-container {
+  background: rgb(88, 129, 87);
+  background: -moz-linear-gradient(
+    180deg,
+    rgba(88, 129, 87, 1) 0%,
+    rgba(58, 90, 64, 1) 50%,
+    rgba(52, 78, 65, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    180deg,
+    rgba(88, 129, 87, 1) 0%,
+    rgba(58, 90, 64, 1) 50%,
+    rgba(52, 78, 65, 1) 100%
+  );
+  background: linear-gradient(
+    180deg,
+    rgba(88, 129, 87, 1) 0%,
+    rgba(58, 90, 64, 1) 50%,
+    rgba(52, 78, 65, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#588157", endColorstr="#344e41", GradientType=1);
+  border-radius: 0 0 5px 5px;
 }

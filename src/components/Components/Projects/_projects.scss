@@ -1,106 +1,123 @@
-.container{
+.projects-container {
   display: grid;
   grid-template-columns: 50% 50%;
   gap: 25px;
-  width: 100%;
-  .project-container{
+  width: 95%;
+  height: auto;
+  .project-sub-container {
     border-radius: 5px;
-    height: 500px;
+    height: 450px;
     display: flex;
     justify-content: center;
     overflow: hidden;
     box-shadow: 3px 4px 0px 1px $brunwick-green;
     position: relative;
 
-    
-    .meta-info{
-      background-color: transparentize($fern-green,  0.2);
+    .meta-info {
+      background-color: transparentize($fern-green, 0.2);
       align-self: flex-end;
       height: 70%;
       width: 100%;
       text-align: center;
       padding: 1rem;
       position: absolute;
-      top:100%;
-      transition: .5s;
+      top: 100%;
+      transition: 0.5s;
+      
+      p{
+        margin: 10px 0;
+      }
+      
+      .project-link-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
-      a{
-        padding-left: .5rem;
-        padding-right: .5rem;
-        text-decoration: none;
+        a {
+          padding-left: 0.5rem;
+          padding-right: 0.5rem;
+          text-decoration: none;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          .project-icon {
+            padding-right: 4px;
+          }
+        }
       }
     }
   }
-  
-  .project1{
+
+  .project1 {
     background-image: url("../projects-snaps/kaisen-gotchi.jpg");
     background-size: cover;
     background-position: center;
   }
-  .project2{
+  .project2 {
     background-image: url("../projects-snaps/goodeats.png");
     background-size: cover;
     background-position: center;
   }
-  .project3{
+  .project3 {
     background-image: url("../projects-snaps/the-wayfarer.jpg");
     background-size: cover;
     background-position: center;
   }
-  .project4{
+  .project4 {
     background-image: url("../projects-snaps/fotonegative.jpg");
     background-size: cover;
     background-position: center;
   }
-  .project5{
+  .project5 {
     background-image: url("../projects-snaps/outlet.png");
     background-size: cover;
     background-position: center;
   }
-  .project6{
+  .project6 {
     background-image: url("../projects-snaps/animeselfcare.jpg");
     background-size: cover;
     background-position: center;
   }
 
-  .project1:hover{
+  .project1:hover {
     background-image: url("../projects-snaps/kaisen-gotchi-gif.gif");
     background-size: cover;
     background-position: center;
-    .meta-info{
-      top:40%;
+    .meta-info {
+      top: 40%;
     }
   }
-  .project2:hover{
+  .project2:hover {
     background-image: url("../projects-snaps/goodeats-gif.gif");
     background-size: cover;
     background-position: center;
-    .meta-info{
-      top:40%;
+    .meta-info {
+      top: 40%;
     }
   }
-  .project3:hover{
+  .project3:hover {
     background-image: url("../projects-snaps/wayfarer-gif.gif");
     background-size: cover;
     background-position: center;
-    .meta-info{
-      top:40%;
+    .meta-info {
+      top: 40%;
     }
   }
-  .project4:hover{
+  .project4:hover {
     background-image: url("../projects-snaps/fotonegative-gif.gif");
     background-size: cover;
     background-position: center;
-    .meta-info{
-      top:40%;
+    .meta-info {
+      top: 40%;
     }
   }
-  .project5:hover{
+  .project5:hover {
     background-image: url("https://res.cloudinary.com/dsxis0hux/image/upload/v1637789547/pics/25d6a24be92194874de799803d371188_embamn.gif");
     background-size: cover;
     background-position: center;
-    .meta-info{
-      top:40%;
+    .meta-info {
+      top: 40%;
     }
   }
 
@@ -114,22 +131,26 @@
   }
 }
 
-@media screen and (max-width:480px) {
-  .container{
+@media screen and (max-width: 480px) {
+  .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 80%;
-    .project-container{
-
-      .meta-info{
+    .project-container {
+      .meta-info {
         height: 100%;
       }
     }
-    .project1:hover, .project2:hover, .project3:hover, .project4:hover, .project5:hover,.project6:hover{
-      .meta-info{
+    .project1:hover,
+    .project2:hover,
+    .project3:hover,
+    .project4:hover,
+    .project5:hover,
+    .project6:hover {
+      .meta-info {
         padding-top: 2rem;
-        top:0%;
+        top: 0%;
       }
     }
   }
