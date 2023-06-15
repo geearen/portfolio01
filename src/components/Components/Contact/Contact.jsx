@@ -5,7 +5,6 @@ export default function Contact() {
   return (
     <div className="contact-section">
       <div className="contact-content">
-        <h2>Contacts</h2>
         <ul>
           <li>
             <a

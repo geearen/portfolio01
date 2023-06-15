@@ -1,11 +1,11 @@
-.contact-section{
+.contact-section {
   perspective: 650px;
   perspective-origin: 50% -100%;
   display: flex;
   justify-content: center;
-  .contact-content{
+  .contact-content {
     background-color: $fern-green;
-    position:relative;
+    position: relative;
     width: 550px;
     height: 450px;
     transform-style: preserve-3d;
@@ -14,8 +14,8 @@
     justify-content: center;
     align-self: center;
   }
-  h2{
-    padding:0.8rem;
+  h2 {
+    padding: 0.8rem;
     margin: 1rem;
     color: $font-color;
     text-align: center;
@@ -23,54 +23,57 @@
   ul {
     list-style-type: none;
   }
-  a{
-    padding:0.8rem;
+  a {
+    padding: 0.8rem;
     color: $font-color;
-    span{
-      margin:0.5rem;
+    span {
+      margin: 0.5rem;
     }
   }
-  li{
+  li {
     padding-right: 10px;
     margin: 1rem;
   }
-  .contact-content, .contact-content::before, .contact-content::after{
+  .contact-content,
+  .contact-content::before,
+  .contact-content::after {
     border-radius: 10px;
   }
-  .contact-content::before, .contact-content::after{
+  .contact-content::before,
+  .contact-content::after {
     position: absolute;
     width: 100%;
     height: 100%;
-    content: '';
+    content: "";
     display: block;
     transition: transform 200ms;
   }
 
-  .contact-content::before{
+  .contact-content::before {
     background-color: $laurel-green;
     z-index: -1;
-    transform: translate3d(0,0,-20px)
+    transform: translate3d(0, 0, -20px);
   }
-  &:hover .contact-content::before{
-    transform:translate3d(0,0,-10px);
+  &:hover .contact-content::before {
+    transform: translate3d(0, 0, -10px);
   }
-  .contact-content::after{
+  .contact-content::after {
     background-color: $timberwolf;
     z-index: -2;
-    transform: translate3d(0,0,-40px)
+    transform: translate3d(0, 0, -40px);
   }
-  &:hover .contact-content::after{
-    transform:translate3d(0,0,-20px);
+  &:hover .contact-content::after {
+    transform: translate3d(0, 0, -20px);
   }
 }
 
-@media screen and (max-width:480px) {
-  .contact-section{
-    padding:1rem;
+@media screen and (max-width: 480px) {
+  .contact-section {
+    padding: 1rem;
     margin: 1rem;
-    
-    a{
-      display:flex;
+
+    a {
+      display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;

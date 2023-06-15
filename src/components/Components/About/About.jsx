@@ -1,17 +1,17 @@
-import React from 'react'
+import React from "react";
 
 export default function About() {
   return (
     <section className="about-container">
       <div className="about-portrait">
         <img
-          src="https://res.cloudinary.com/dsxis0hux/image/upload/v1664750484/pics/20220817-DSCF1088_dwnrin.jpg"
+          src="https://res.cloudinary.com/dsxis0hux/image/upload/v1637386168/pics/20201227-MRJ01356_barxvr.jpg"
           alt="portfolio portrait"
         />
       </div>
       <div className="about-text">
-        <div className="heading-text">
-          <h1>About me! 👋</h1>
+        <h1>About me! 👋</h1>
+        <div className="text-box">
           <p>
             {" "}
             Hi! I'm Allen Gonzales, currently a Software Developer at
