@@ -41,10 +41,6 @@ h6 {
 
 h1 {
   font-size: calc(1em + 3vmin);
-  --x-offset: -0.0625em;
-  --y-offset: 0.0625em;
-  --stroke: 0.025em;
-  text-shadow: var(--x-offset) var(--y-offset) 0px $fern-green,
-    calc(var(--x-offset) - var(--stroke)) calc(var(--y-offset) + var(--stroke))
-      0px $edgy-gold;
+  text-shadow: $x-offset $y-offset 0px $fern-green,
+    calc($x-offset - $stroke) calc($y-offset + $stroke) 0px $edgy-gold;
 }
