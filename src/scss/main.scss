@@ -12,16 +12,15 @@
 @import "../components/Components/Footer/footer";
 @import "../components/Components/PageContainer/pagecontainer";
 
-
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-html{
+html {
   scroll-behavior: smooth;
 }
-body{
+body {
   color: $font-color;
   font-family: $base-font;
   background: $super-silver;
@@ -29,8 +28,23 @@ body{
   max-height: 100vh;
   margin: 15px 5px 1px 5px;
 }
-h1,h2,h3,h4,h5,h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: $header-font;
   color: $font-color;
-  letter-spacing: 4px;
+  letter-spacing: 6px;
+}
+
+h1 {
+  font-size: calc(1em + 3vmin);
+  --x-offset: -0.0625em;
+  --y-offset: 0.0625em;
+  --stroke: 0.025em;
+  text-shadow: var(--x-offset) var(--y-offset) 0px $fern-green,
+    calc(var(--x-offset) - var(--stroke)) calc(var(--y-offset) + var(--stroke))
+      0px $edgy-gold;
 }

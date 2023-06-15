@@ -1,44 +1,43 @@
 .tech-stack {
   font-family: $typing-font;
-  background-color: $timberwolf;
-  border-radius: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 0 5rem;
 
-  h1{
+  h1 {
     margin: 2rem 0rem;
-    color: $cinder;
   }
-  
+
   .tech-stack-section {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    background-color: $timberwolf;
+    box-shadow: 3px 4px 0px 1px $brunwick-green;
+    border-radius: 10px;
+    padding: 2rem;
   }
-  .tech-container{
-    
-    .tech-stack-img{
+  .tech-container {
+    .tech-stack-img {
       box-sizing: content-box;
       padding: 2rem 3rem;
       width: auto;
       height: 80px;
       transition: ease-in-out 250ms;
     }
-    .tech-stack-img:hover{
+    .tech-stack-img:hover {
       transform: translateY(-10px);
     }
   }
 }
 
-@media screen and (max-width: 480px){
-  .tech-container{
-
-    .tech-stack-img{
-      padding:2rem 2rem;
+@media screen and (max-width: 480px) {
+  .tech-container {
+    .tech-stack-img {
+      padding: 2rem 2rem;
       width: auto;
       height: 70px;
     }
