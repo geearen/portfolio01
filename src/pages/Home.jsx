@@ -11,10 +11,7 @@ function Home() {
         <div className="background-grad">
           <div className="home">
             <About />
-            <div className="contact-info">
-              <h2>Contacts</h2>
-              <Contact />
-            </div>
+            <Contact />
           </div>
         </div>
       }

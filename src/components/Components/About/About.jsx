@@ -14,8 +14,7 @@ export default function About() {
         <div className="text-box">
           <p>
             {" "}
-            Hi! I'm Allen Gonzales, currently a Software Developer at
-            Rightpoint.
+            Hi! I'm Allen Gonzales,
             <br />
             <br />
             3 years of Avionics Technician experience. I gained transferable
@@ -27,65 +26,17 @@ export default function About() {
             them.
             <br />
             <br />
+            I currently have about a year of experience in software development.
+            As of right now I am currently looking for a new place, excited to
+            learn new technogies and collaborate in a team.
+            <br />
+            <br />
             When I'm not coding, you can find me editing my photos, hanging out
-            with my friends playing video games or watching cooking show on
-            youtube.
+            with my friends playing video games, or cooking and trying out new
+            recipes.
           </p>
         </div>
       </div>
-
-      {/* <div className="table">
-          <h1>My Tool Box</h1>
-          <table className="table-container uk-table uk-table-divider">
-            <thead>
-              <tr>
-                <th>Languages</th>
-                <th>Libraries | Frameworks</th>
-                <th>Databases</th>
-                <th>Other</th>
-              </tr>
-            </thead>
-
-            <tbody>
-              <tr>
-                <td>JavaScript</td>
-                <td>React</td>
-                <td>MongoDB</td>
-                <td>MVC</td>
-              </tr>
-              <tr>
-                <td>Python</td>
-                <td>Django</td>
-                <td>PostgreSQL</td>
-                <td>ORM</td>
-              </tr>
-              <tr>
-                <td>HTML5</td>
-                <td>jQuery</td>
-                <td>Mongoose</td>
-                <td>ODM</td>
-              </tr>
-              <tr>
-                <td>CSS</td>
-                <td>Node.js</td>
-                <td></td>
-                <td>EJS</td>
-              </tr>
-              <tr>
-                <td>SASS</td>
-                <td>Express.js</td>
-                <td></td>
-                <td>DTL</td>
-              </tr>
-              <tr>
-                <td>TypeScript</td>
-                <td></td>
-                <td></td>
-                <td>REST API</td>
-              </tr>
-            </tbody>
-          </table>
-        </div> */}
     </section>
   );
 }
