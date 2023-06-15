@@ -1,14 +1,15 @@
 .projects-container {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 1fr 1fr;
   gap: 25px;
-  width: 95%;
+  width: 100%;
   height: auto;
   .project-sub-container {
     border-radius: 5px;
     height: 450px;
     display: flex;
     justify-content: center;
+    align-items: center;
     overflow: hidden;
     box-shadow: 3px 4px 0px 1px $brunwick-green;
     position: relative;

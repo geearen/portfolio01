@@ -13,9 +13,7 @@ const Project = () => {
           </div>
           <div className="tech-stack">
             <h1>Tech Stack</h1>
-            <section className="tech-stack-section">
-              <Stacks />
-            </section>
+            <Stacks />
           </div>
         </>
       }

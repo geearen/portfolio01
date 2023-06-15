@@ -1,14 +1,36 @@
-.tech-container{
+.tech-stack {
+  font-family: $typing-font;
+  background-color: $timberwolf;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5rem;
 
-  .tech-stack-img{
-    box-sizing: content-box;
-    padding: 2rem 3rem;
-    width: auto;
-    height: 80px;
-    transition: ease-in-out 250ms;
+  h1{
+    margin: 2rem 0rem;
+    color: $cinder;
   }
-  .tech-stack-img:hover{
-    transform: translateY(-10px);
+  
+  .tech-stack-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .tech-container{
+    
+    .tech-stack-img{
+      box-sizing: content-box;
+      padding: 2rem 3rem;
+      width: auto;
+      height: 80px;
+      transition: ease-in-out 250ms;
+    }
+    .tech-stack-img:hover{
+      transform: translateY(-10px);
+    }
   }
 }
 

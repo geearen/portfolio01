@@ -7,17 +7,17 @@ function Nav() {
     <div className="navbar">
       <ul className="navbar-container">
         <li className="navbar-item">
-          <NavLink exact to="/">
+          <NavLink end to="/">
             home
           </NavLink>
         </li>
         <li className="navbar-item">
-          <NavLink exact to="/project">
+          <NavLink end to="/project">
             projects
           </NavLink>
         </li>
         <li className="navbar-item">
-          <NavLink exact to="/photo">
+          <NavLink end to="/photo">
             photography
           </NavLink>
         </li>

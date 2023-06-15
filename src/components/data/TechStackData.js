@@ -36,7 +36,7 @@ export const TechStackData = [
     key: 2,
     src: javascript,
     alt: "javascript",
-    span: "Javascript ES7",
+    span: "Javascript",
   },
   {
     key: 3,
@@ -121,5 +121,11 @@ export const TechStackData = [
     src: insomnia,
     alt: "insomnia",
     span: "Insomnia",
+  },
+  {
+    key: 17,
+    src: bootstrap,
+    alt: "bootstrap",
+    span: "Bootstrap",
   },
 ];
