@@ -23,12 +23,12 @@
       height: 250px;
     }
     img {
-      background-image: url(https://res.cloudinary.com/dsxis0hux/image/upload/v1686808576/8090513a67f6ec1e4c8b2ad86dd34173-sticker_zemfif.png);
+      background-image: url("https://res.cloudinary.com/dsxis0hux/image/upload/v1686808576/8090513a67f6ec1e4c8b2ad86dd34173-sticker_zemfif.png");
       background-size: cover;
       background-position: center;
     }
     img:hover {
-      background-image: url(https://res.cloudinary.com/dsxis0hux/image/upload/v1686809937/EmojiMovie708501137_AdobeExpress_1_djenuw.gif);
+      background-image: url("https://res.cloudinary.com/dsxis0hux/image/upload/v1686809937/EmojiMovie708501137_AdobeExpress_1_djenuw.gif");
       background-size: cover;
       background-position: center;
     }
@@ -73,23 +73,33 @@
     content: "";
     display: block;
     transition: transform 200ms;
+    -webkit-transition: transform 200ms;
+    -moz-transition: transform 200ms;
   }
 
   .contact-content::before {
     background-color: $laurel-green;
     z-index: -1;
     transform: translate3d(0, 0, -20px);
+    -ms-transform: translate3d(0, 0, -20px);
+    -webkit-transform: translate3d(0, 0, -20px);
   }
   &:hover .contact-content::before {
     transform: translate3d(0, 0, -10px);
+    -ms-transform: translate3d(0, 0, -10px);
+    -webkit-transform: translate3d(0, 0, -10px);
   }
   .contact-content::after {
     background-color: $timberwolf;
     z-index: -2;
     transform: translate3d(0, 0, -40px);
+    -ms-transform: translate3d(0, 0, -40px);
+    -webkit-transform: translate3d(0, 0, -40px);
   }
   &:hover .contact-content::after {
     transform: translate3d(0, 0, -20px);
+    -ms-transform: translate3d(0, 0, -20px);
+    -webkit-transform: translate3d(0, 0, -20px);
   }
 }
 
