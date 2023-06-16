@@ -35,11 +35,17 @@
 }
 
 @media screen and (max-width: 480px) {
-  .tech-container {
-    .tech-stack-img {
-      padding: 2rem 2rem;
-      width: auto;
-      height: 70px;
+  .tech-stack {
+    margin: 0 1rem;
+    .tech-stack-section {
+      width: 90%;
+    }
+    .tech-container {
+      .tech-stack-img {
+        padding: 1rem 1rem;
+        width: auto;
+        height: 50px;
+      }
     }
   }
 }

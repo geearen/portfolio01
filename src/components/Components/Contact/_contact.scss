@@ -97,13 +97,19 @@
   .contact-section {
     padding: 1rem;
     margin: 1rem;
-
-    a {
-      display: flex;
+    .contact-content {
+      height: auto;
       flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      font-size: 12px;
+      img {
+        width: 150px;
+        height: 150px;
+      }
+      a {
+        font-size: 12px;
+      }
+      ul {
+        margin-bottom: 1rem;
+      }
     }
   }
 }
