@@ -1,0 +1,60 @@
+.photos-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  padding-top: 20px;
+
+  .circle {
+    margin: auto;
+    height: 500px;
+    width: 500px;
+    border-radius: 100%;
+    background-color: #4e8953;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+      font-size: 110px;
+      color: $super-silver;
+      text-align: center;
+      line-height: 120px;
+      font-family: $handwriting-font;
+      -moz-transform: scale(1) rotate(-5deg) translateX(0px) translateY(0px)
+        skewX(1deg) skewY(1deg);
+      -webkit-transform: scale(1) rotate(-5deg) translateX(0px) translateY(0px)
+        skewX(1deg) skewY(1deg);
+      -o-transform: scale(1) rotate(-5deg) translateX(0px) translateY(0px)
+        skewX(1deg) skewY(1deg);
+      -ms-transform: scale(1) rotate(-5deg) translateX(0px) translateY(0px)
+        skewX(1deg) skewY(1deg);
+      transform: scale(1) rotate(-5deg) translateX(0px) translateY(0px)
+        skewX(1deg) skewY(1deg);
+      /*-----------------------*/
+      text-shadow: 1px 1px #4a744d, 2px 2px #4a744d, 3px 3px #4a744d,
+        4px 4px #4a744d, 5px 5px #4a744d, 6px 6px #4a744d, 7px 7px #4a744d,
+        8px 8px #4a744d, 9px 9px #4a744d, 10px 10px #4a744d, 11px 11px #4a744d,
+        12px 12px #4a744d, 13px 13px #4a744d, 14px 14px #4a744d,
+        15px 15px #4a744d, 16px 16px #4a744d, 17px 17px #4a744d,
+        18px 18px #4a744d, 19px 19px #4a744d, 20px 20px #4a744d,
+        21px 21px #4a744d, 22px 22px #4a744d, 23px 23px #4a744d,
+        24px 24px #4a744d, 25px 25px #4a744d, 26px 26px 6px #06520c;
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .photos-container {
+    .circle {
+      height: 250px;
+      width: 250px;
+
+      h1 {
+        font-size: 50px;
+        line-height: 60px;
+      }
+    }
+  }
+}

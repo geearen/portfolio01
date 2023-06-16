@@ -23,37 +23,37 @@ export const TechStackData = [
   {
     key: 0,
     src: html5,
-    alt: "HTML 5",
+    alt: "html",
     span: "HTML 5",
   },
   {
     key: 1,
     src: css3,
-    alt: "CSS 3",
+    alt: "css",
     span: "CSS",
   },
   {
     key: 2,
     src: javascript,
-    alt: "Javascript",
-    span: "Javascript ES7",
+    alt: "javascript",
+    span: "Javascript",
   },
   {
     key: 3,
     src: python,
-    alt: "Python",
+    alt: "python",
     span: "Python",
   },
   {
     key: 4,
     src: react,
-    alt: "React",
-    span: "React, This portfolio was built w/ React!",
+    alt: "react",
+    span: "React.js",
   },
   {
     key: 5,
     src: typescript,
-    alt: "Typescript",
+    alt: "typescript",
     span: "Typescript",
   },
   {
@@ -65,7 +65,7 @@ export const TechStackData = [
   {
     key: 7,
     src: expressjs,
-    alt: "ExpressJs",
+    alt: "expressjs",
     span: "ExpressJs",
   },
   {
@@ -77,32 +77,32 @@ export const TechStackData = [
   {
     key: 9,
     src: mongodb,
-    alt: "MongoDB",
+    alt: "mongodb",
     span: "MongoDB",
   },
   {
     key: 10,
     src: postgresql,
-    alt: "PostgreSQL",
+    alt: "postgresql",
     span: "PostgreSQL",
   },
   {
     key: 11,
     src: sass,
     alt: "SASS",
-    span: "SASS, This porfolio was compiled with SASS!",
+    span: "SASS",
   },
   {
     key: 12,
     src: semantic,
-    alt: "SemanticUI",
+    alt: "semantic",
     span: "Semantic UI",
   },
   {
     key: 13,
     src: uikit,
-    alt: "UIkit",
-    span: "UIkit, This porfolio is using UIkit!",
+    alt: "uikit",
+    span: "UIkit",
   },
   {
     key: 14,
@@ -119,7 +119,13 @@ export const TechStackData = [
   {
     key: 16,
     src: insomnia,
-    alt: "Insomnia",
+    alt: "insomnia",
     span: "Insomnia",
+  },
+  {
+    key: 17,
+    src: bootstrap,
+    alt: "bootstrap",
+    span: "Bootstrap",
   },
 ];

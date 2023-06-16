@@ -1,52 +1,11 @@
 .home {
   display: flex;
-  flex-direction:column;
-  width: 70%;
+  flex-direction: column;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
-  .line {
-    margin: 20px auto;
-    width: 95%;
-    border: 0;
-    height: 1px;
-    background-image: linear-gradient(
-      to right,
-      $background-dark,
-      $font-color,
-      $background-dark
-    );
-  }
 
-  .tech-stack {
-    text-align: center;
-    font-family: $handwriting-font;
-    margin: 2rem 3rem;
-    padding: 1rem;
-    h1{
-      margin: 2rem 0rem;
-    }
-    
-    .tech-stack-section {
-      background-color: transparentize($font-color, 0.8);
-      box-shadow: 5px 5px 0px 2px $light-deep-space;
-      border-radius: 10px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-wrap: wrap;
-      width: 100%;
-    }
-  }
-
-  .projects{
-    text-align: center;
-    margin: 2rem 3rem;
-    padding: 1rem;
-    h1{
-      margin: 2rem 0rem;
-    }
-  }
-  .contact-info{
+  .contact-info {
     text-align: center;
     margin: 2rem 3rem;
     padding: 1rem;
@@ -54,16 +13,22 @@
 }
 
 @media screen and (max-width: 480px) {
-  .home{
+  .home {
     width: 100%;
 
-    .projects{
-      margin: 1rem;
-      padding: .5rem;
+    .contact-info {
+      text-align: center;
+      margin: 0;
+      padding: 0;
     }
-    
-    .tech-stack{
-      margin:1rem 2rem;
+
+    .projects {
+      margin: 1rem;
+      padding: 0.5rem;
+    }
+
+    .tech-stack {
+      margin: 1rem 2rem;
       padding: 0rem;
     }
   }

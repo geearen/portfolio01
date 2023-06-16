@@ -1,15 +1,21 @@
 import React from 'react'
-import { Switch, Route, Redirect } from 'react-router-dom'
+import { Route, BrowserRouter, Routes } from 'react-router-dom'
 import Splash from '../pages/Splash';
 import Home from '../pages/Home';
+import Project from '../pages/Project';
+import Photo from '../pages/Photo';
 
-function Routes(){
+function RouterConfig(){
   return (
-    <Switch>
-      <Route exact path="/" component={Splash} />
-      <Route exact path="/home" component={Home} />
-    </Switch>
+    <BrowserRouter>
+      <Routes>
+        {/* <Route exact path="/" element={<Splash/>} /> */}
+        <Route exact path="/" element={<Home />} />
+        <Route exact path="/project" element={<Project />} />
+        <Route exact path="/photo" element={<Photo />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
-export default Routes;
+export default RouterConfig;

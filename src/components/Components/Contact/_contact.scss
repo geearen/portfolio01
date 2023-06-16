@@ -1,0 +1,115 @@
+.contact-section {
+  perspective: 650px;
+  perspective-origin: 50% -100%;
+  display: flex;
+  justify-content: center;
+  .contact-content {
+    margin-top: 50px;
+    background-color: $fern-green;
+    position: relative;
+    width: 850px;
+    height: 450px;
+    transform-style: preserve-3d;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    img {
+      background-color: black;
+      align-self: center;
+      justify-self: center;
+      border-radius: 100%;
+      width: 250px;
+      height: 250px;
+    }
+    img {
+      background-image: url(https://res.cloudinary.com/dsxis0hux/image/upload/v1686808576/8090513a67f6ec1e4c8b2ad86dd34173-sticker_zemfif.png);
+      background-size: cover;
+      background-position: center;
+    }
+    img:hover {
+      background-image: url(https://res.cloudinary.com/dsxis0hux/image/upload/v1686809937/EmojiMovie708501137_AdobeExpress_1_djenuw.gif);
+      background-size: cover;
+      background-position: center;
+    }
+    h3 {
+      margin: 2rem;
+      text-align: left;
+    }
+  }
+  h1 {
+    text-align: center;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+  a {
+    padding: 0.5rem;
+    color: $font-color;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .contact-icons {
+      padding-top: 2px;
+      margin-right: 4px;
+    }
+  }
+  li {
+    padding-right: 10px;
+  }
+  .contact-content,
+  .contact-content::before,
+  .contact-content::after {
+    border-radius: 10px;
+  }
+  .contact-content::before,
+  .contact-content::after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: "";
+    display: block;
+    transition: transform 200ms;
+  }
+
+  .contact-content::before {
+    background-color: $laurel-green;
+    z-index: -1;
+    transform: translate3d(0, 0, -20px);
+  }
+  &:hover .contact-content::before {
+    transform: translate3d(0, 0, -10px);
+  }
+  .contact-content::after {
+    background-color: $timberwolf;
+    z-index: -2;
+    transform: translate3d(0, 0, -40px);
+  }
+  &:hover .contact-content::after {
+    transform: translate3d(0, 0, -20px);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .contact-section {
+    padding: 1rem;
+    margin: 1rem;
+    .contact-content {
+      height: auto;
+      flex-direction: column;
+      img {
+        width: 150px;
+        height: 150px;
+      }
+      a {
+        font-size: 12px;
+      }
+      ul {
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}
