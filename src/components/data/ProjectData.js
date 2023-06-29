@@ -26,7 +26,7 @@ export const ProjectData = [
     description:
       "FotoNegative is a full stack application targeting on photographers and hobbyists, where it allows users to views different types of camera from film to digital. Inspired by KenRockwell.com and Instagram",
     tech: "Node.js, Express.js, MongoDB, SASS, UIkit, AWS S3 and Unsplash API",
-    deployed: "https://fotonegative.herokuapp.com/",
+    deployed: "https://foto-negative.vercel.app/home",
     github: "https://github.com/geearen/FotoNegative",
   },
   {
@@ -46,7 +46,7 @@ export const ProjectData = [
     description:
       "Goodeats is a recipe website where user get to share their recipes.",
     tech: "Node.js, Express.js, MongoDB, SASS, Semantic UI and jQuery",
-    deployed: "https://goodeats-allen-nick.herokuapp.com/",
+    deployed: "https://goodeats-umber.vercel.app/",
     github: "https://github.com/geearen/Goodeats",
   },
   {
