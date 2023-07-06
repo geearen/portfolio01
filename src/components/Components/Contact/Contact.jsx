@@ -56,12 +56,22 @@ export default function Contact() {
             </li>
             <li>
               <a
-                href="https://drive.google.com/file/d/1b-kFWsZvchh70g9mY9h_WzdHdxc9ocqF/view?usp=sharing"
+                href="https://drive.google.com/file/d/1_8wuKVWL0YXPwEK_okGkLj-0dYGE7tu1/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaIcons.FaFileAlt className="contact-icons" />
                 Resume
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://calendly.com/geearen/10min"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaIcons.FaCalendar className="contact-icons" />
+                Schedule a call with Calendly
               </a>
             </li>
           </ul>

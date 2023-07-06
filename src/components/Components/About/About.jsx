@@ -23,12 +23,13 @@ export default function About() {
             to gain insightful knowledge. I find excitement from learning new
             skills and I enjoy sharing what I learn. I take pride and ownership
             with everything I do. I’m not afraid to make mistakes and learn from
-            them.
+            them. I have special interest in learning architectures and digging
+            deeper.
             <br />
             <br />
-            I currently have about a year of experience in software development.
-            As of right now I am currently looking for a new place, excited to
-            learn new technogies and collaborate in a team.
+            I have about a year of experience in software development. As of
+            right now I am currently looking for a new place, excited to learn
+            new technogies and collaborate in a team.
             <br />
             <br />
             When I'm not coding, you can find me editing my photos, hanging out
