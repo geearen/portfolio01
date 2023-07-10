@@ -16,7 +16,14 @@ import {
   bootstrap,
   npm,
   yarn,
-  insomnia
+  insomnia,
+  azuredevops,
+  cypress,
+  git,
+  optimizely,
+  postman,
+  redux,
+  vercel,
 } from "../../tech-logos";
 
 export const TechStackData = [
@@ -127,5 +134,47 @@ export const TechStackData = [
     src: bootstrap,
     alt: "bootstrap",
     span: "Bootstrap",
+  },
+  {
+    key: 18,
+    src: azuredevops,
+    alt: "azuredevops",
+    span: "Azuredevops",
+  },
+  {
+    key: 19,
+    src: cypress,
+    alt: "cypress",
+    span: "Cypress Io",
+  },
+  {
+    key: 20,
+    src: git,
+    alt: "git",
+    span: "Git",
+  },
+  {
+    key: 21,
+    src: optimizely,
+    alt: "optimizely",
+    span: "Optimizely",
+  },
+  {
+    key: 22,
+    src: postman,
+    alt: "postman",
+    span: "Postman",
+  },
+  {
+    key: 23,
+    src: redux,
+    alt: "redux",
+    span: "Redux",
+  },
+  {
+    key: 24,
+    src: vercel,
+    alt: "vercel",
+    span: "Vercel",
   },
 ];
