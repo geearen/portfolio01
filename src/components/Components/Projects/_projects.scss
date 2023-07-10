@@ -81,6 +81,12 @@
     background-position: center;
   }
 
+  .project7 {
+    background-image: url("../projects-snaps/wordle.png");
+    background-size: cover;
+    background-position: top;
+  }
+
   .project1:hover {
     background-image: url("../projects-snaps/kaisen-gotchi-gif.gif");
     background-size: cover;
@@ -124,6 +130,15 @@
 
   .project6:hover {
     background-image: url("../projects-snaps/animeselfcare-gif.gif");
+    background-size: cover;
+    background-position: center;
+    .meta-info {
+      top: 40%;
+    }
+  }
+
+  .project7:hover {
+    background-image: url("../projects-snaps/wordle-gif.gif");
     background-size: cover;
     background-position: center;
     .meta-info {

@@ -18,18 +18,32 @@ export default function Projects() {
               <p>{item.tech}</p>
 
               <div className="project-link-container">
-                <a
-                  href={item.deployed}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FaIcons.FaLink className="project-icon" />
-                  Live Demo
-                </a>
-                <a href={item.github} target="_blank" rel="noopener noreferrer">
-                  <FaIcons.FaGithubAlt className="project-icon" />
-                  GitHub
-                </a>
+                {item.deployed.map((link, index) => {
+                  return (
+                    <a
+                      key={index}
+                      href={link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <FaIcons.FaLink className="project-icon" />
+                      Live Demo
+                    </a>
+                  );
+                })}
+                {item.github.map((link, index) => {
+                  return (
+                    <a
+                      key={index}
+                      href={link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <FaIcons.FaGithubAlt className="project-icon" />
+                      GitHub
+                    </a>
+                  );
+                })}
               </div>
             </div>
           </div>
