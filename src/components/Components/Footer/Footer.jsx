@@ -37,7 +37,7 @@ export default function Footer() {
           <li>
             <a href="https://sass-lang.com/">
               <img
-                src="https://sass-lang.com/assets/img/logos/logo-b6e1ef6e.svg"
+                src="https://sass-lang.com/assets/img/logos/logo.svg"
                 alt="sass logo"
                 className="footer-logo"
               />
