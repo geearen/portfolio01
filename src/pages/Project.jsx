@@ -6,7 +6,7 @@ const Project = () => {
   return (
     <PageContainer
       children={
-        <>
+        <div className="project-container">
           <div className="projects">
             <h1>Projects</h1>
             <Projects />
@@ -15,7 +15,7 @@ const Project = () => {
             <h1>Tech Stack</h1>
             <Stacks />
           </div>
-        </>
+        </div>
       }
     ></PageContainer>
   );

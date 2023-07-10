@@ -1,17 +1,21 @@
-.projects {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  margin: 0 5rem 50px 5rem;
-  h1 {
-    margin: 2rem 0rem;
+.project-container {
+  height: 100%;
+
+  .projects {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 5rem 50px 5rem;
+    h1 {
+      margin: 2rem 0rem;
+    }
   }
 }
 
 @media screen and (max-width: 480px) {
   .projects {
-    margin: 0 1rem 50px 1rem;
+    margin: 0 0.5rem 50px 0.5rem;
   }
 }
