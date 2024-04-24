@@ -56,7 +56,7 @@ export default function Contact() {
             </li>
             <li>
               <a
-                href="https://drive.google.com/file/d/1_8wuKVWL0YXPwEK_okGkLj-0dYGE7tu1/view?usp=sharing"
+                href="https://docs.google.com/document/d/1wKw19-epGaN2R5Qx1fZxx2dY3sDtD0FSR7gs3yb2U4w/edit?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
               >
