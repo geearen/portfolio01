@@ -1,6 +1,6 @@
-import React, {Component} from 'react'
-import Particles from "react-tsparticles";
-import particlesConfig from '../../config/ParticleConfig';
+import React, { Component } from "react";
+
+import particlesConfig from "../../config/ParticleConfig";
 
 class Background extends Component {
   constructor(props) {
@@ -11,12 +11,10 @@ class Background extends Component {
   }
 
   particlesInit(main) {
-
     // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
   }
 
-  particlesLoaded(container) {
-  }
+  particlesLoaded(container) {}
 
   render() {
     return (
