@@ -3,14 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "node-sass": "^7.0.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.4.0",
     "react-router-dom": "^6.3.0",
     "react-scripts": "^5.0.1",
-    "react-tooltip": "^5.14.0",
-    "react-tsparticles": "^2.3.0"
+    "react-tooltip": "^5.14.0"
   },
   "scripts": {
     "dev": "react-scripts start",
@@ -23,5 +21,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "sass": "^1.97.3"
+  }
 }
